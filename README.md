@@ -9,10 +9,10 @@ As we believe that charity begins at home, the mission is to start community and
 * **Education Support:** Bridging resources for everyone in the community.
 * **Data Transparency:** (Coming Soon) Using statistical mapping to track and display our direct local impact.
 ## Programs under the Furaha Projects
-* ## Furaha Talents
+  * **[Furaha Talents](talents):**
 * This particular programme hosts the annual **TALANTA GALA** ; This is a programme popularly known as a *Talent Show* where children are given the opportunity to perform and showcase their various talents. There are judges who then pick the top 5 children to be awarded and to are able to join the **TALANTA FELLOWS** programme, where they are able to receive guidance by experrts in their field on how to nature their talents and how to make them lucrative.  
 * The Talanta Fellows programme is to be partnered with local schools to ensure that the children have a regular and a constant source of support.
-* ## Furaha Foundation 
+* **[Furaha Foundation](foundation):**
 * To help mothers and single parent families who have the responsibility of taking care of their children. This programs aims to provide working opportunities for them through employment working for the Furaha Projects as they also provide for their families. 
 * To provide sanitary products and education for the females in the community. To ensure that they know how to take care of themsleves and remain hygienic and manage symptoms and know more about their bodies to improve qaulity of life.
 
