@@ -1,9 +1,9 @@
 ---
-layout: default
+layout : default
 
-title: Furaha Talents
+title : Furaha Talents
 
-description: "Cultivating, Identifying, and Showcasing Local Creative Youth Leadership"
+description : "Cultivating, Identifying, and Showcasing Local Creative Youth Leadership"
 ---
  # Furaha Talents 
 
