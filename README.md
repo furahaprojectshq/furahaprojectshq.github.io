@@ -17,6 +17,6 @@ As we believe that charity begins at home, the mission is to start community and
 * To provide sanitary products and education for the females in the community. To ensure that they know how to take care of themsleves and remain hygienic and manage symptoms and know more about their bodies to improve qaulity of life.
 
 * Will partner with local hospitals and companies that provide sanitary products to be able to aid the females in our communities.
-* # Furaha Analytics
+* ## Furaha Analytics
 * (Coming soon) Tracking the metrics and data trends of our entire network.
 yeesir
