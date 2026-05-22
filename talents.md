@@ -1,4 +1,5 @@
 # Furaha Talents
+
 ---
 layout: default
 title: Furaha Talents
