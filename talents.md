@@ -1,4 +1,9 @@
 # Furaha Talents
+---
+layout: default
+title: Furaha Talents
+description: "Cultivating, Identifying, and Showcasing Local Creative Youth Leadership"
+---
 
 Welcome to the **Furaha Talents** branch. This program is dedicated to identifying, cultivating, and showcasing local creative skills and leadership abilities.
 
