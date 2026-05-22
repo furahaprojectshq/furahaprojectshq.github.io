@@ -2,3 +2,18 @@
 ---
 @import "{{ site.theme }}";
 
+.page-header {
+  padding: 1.5rem 1rem !important;  
+  text-align: left !important;     
+}
+
+.project-name {
+  font-size: 2rem !important; 
+  margin-bottom: 0.2rem !important;
+}
+
+.project-tagline {
+  font-size: 0.95rem !important;
+  opacity: 0.85 !important; 
+}
+
