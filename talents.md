@@ -1,3 +1,7 @@
+---
+title: Furaha Projects
+description: Cultivating, Identifying, and Showcasing Local Creative Youth Leadership
+---
 # Furaha Talents
 
 *Cultivating, Identifying, and Showcasing Local Creative Youth Leadership*
