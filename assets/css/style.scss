@@ -2,7 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-.page-header {
+.header, .page-header, .site-header  {
   padding: 1.5rem 1rem !important;  
   text-align: center !important;     
 }
