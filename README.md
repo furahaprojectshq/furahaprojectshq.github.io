@@ -10,7 +10,6 @@ As we believe that charity begins at home, the mission is to start community and
 * **Data Transparency:** (Coming Soon) Using statistical mapping to track and display our direct local impact.
 ## Programs under the Furaha Projects
 * ## [Furaha Talents](talents)
-  
 * ## [Furaha Foundation](foundation)
   
 * ## Furaha Analytics
