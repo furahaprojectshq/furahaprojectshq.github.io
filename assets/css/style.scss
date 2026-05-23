@@ -27,22 +27,37 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important; 
 }
 
-.main-content {
-  margin-top: 200px !important;     
+
+body {
+  background-color: #f8fafc !important;
 }
 
-.main-content .card-grid { 
-  dispaly: flex !important;
-  flex-wrap: wrap !important;
-  gap: 20px !important;
+.main-content .card-grid {
+  display: flex !important;
+  flex-direction: row !important;  
+  flex-wrap: wrap !important;     
+  gap: 24px !important;            
+  margin-top: 40px !important;
+  width: 100% !important;
 }
 
 .main-content .branch-card {
   background-color: #ffffff !important;
-  padding: 20px !important;
-  border-radius: 8px !important;
-  border: 1px solid #e1e4e8;
-  flex: 1 1 calc(50%-20px) !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
+  padding: 28px !important;
+  border-radius: 12px !important;   
+  border: 1px solid #e2e8f0 !important;
+  
+  
+  flex: 1 1 calc(50% - 24px) !important;     
+  max-width: calc(50% - 12px) !important;    
+  min-width: 280px !important;               
+  box-sizing: border-box !important;
+  
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.04), 0 2px 4px -2px rgba(0,0,0,0.04) !important; 
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important; 
 }
 
+.main-content .branch-card:hover {
+  transform: translateY(-5px) !important;   
+  border-color: #cbd5e1 !important;        
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.08) !important;
