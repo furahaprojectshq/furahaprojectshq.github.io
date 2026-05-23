@@ -21,4 +21,9 @@ As we believe that charity begins at home, the mission is to start community and
 <P> Economic empoerment and employment pipelines for mothers and vital health resource support.</P>
 <a href="foundation" class="branch-button">Launch Portal →</a>
 </div>
+<div class="branch-card">
+  <h3>📊FUARHA ANALYTICS</h3>
+  <p>Applying statistical tracking and predictive modeling to measure, optimize, and display our network's direct community impact metrics. </p>
+  <span class="badge-soon">System Launching Soon</span>
+</div>
 </div>
