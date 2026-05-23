@@ -10,6 +10,7 @@ header, .page-header, .site-header  {
 .project-name {
   font-size: 2rem !important; 
   margin-bottom: 0.2rem !important;
+  letter-spacing: 2px; font-weight: 800;
 }
 
 .project-tagline {
@@ -51,7 +52,7 @@ body {
   border: 1px solid #e2e8f0 !important;
   
   
-  flex: 1 1 calc(50% - 24px) !important;     
+  flex: 1 1 calc(33.33% - 24px) !important;     
   max-width: calc(50% - 12px) !important;    
   min-width: 280px !important;               
   box-sizing: border-box !important;
@@ -94,3 +95,32 @@ header, .page-header, .site-header {
 .site-nav a:hover {
   opacity: 1 !important;
 }
+
+.site-nav ul {
+  display: flex !important;
+  justify-content: center !important;
+  list-style: none !important;     
+  padding: 0 !important;
+  margin: 0 !important; 
+  gap: 20px !important;             
+  flex-wrap: wrap !important;       
+}
+
+
+.site-nav a {
+  color: #ffffff !important;
+  text-decoration: none !important;  
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  opacity: 0.8 !important;           
+  padding: 6px 12px !important;     
+  border-radius: 4px !important; 
+  transition: all 0.2s ease-in-out !important; 
+}
+
+
+.site-nav a:hover {
+  opacity: 1 !important;            
+  background-color: rgba(255, 255, 255, 0.15) !important; 
+}
+
