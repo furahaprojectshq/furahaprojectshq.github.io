@@ -31,16 +31,18 @@
   margin-top: 250px !important;     
 }
 
-.card-grid { 
+.main-content .card-grid { 
   dispaly: flex !important;
   flex-wrap: wrap !important;
   gap: 20px !important;
 }
 
-.branch-card {
+.main-content .branch-card {
   background-color: white !important;
   padding: 20px !important;
   border-radius: 8px !important;
   border 1px solid #e1e4e8 !important;
+  flex: 1 1 calc(50%-20px) !important;
+  box-shadow: 0 4px 6px rgba (0, 0, 0, 0.05) !important;
 }
-  
+
