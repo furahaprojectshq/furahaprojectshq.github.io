@@ -18,7 +18,7 @@ As we believe that charity begins at home, the mission is to start community and
   </div>
 <div class="branch-card">
 <h3>🏥FURAHA FOUNDATION</h3>
-<P> Economic empoerment and employment pipelines for mothers and vital health resource support.</P>
+<P> Economic empowerment and employment pipelines for mothers and vital health resource support.</P>
 <a href="foundation" class="branch-button">Launch Portal →</a>
 </div>
 <div class="branch-card">
