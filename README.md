@@ -1,13 +1,28 @@
-# Furaha Projects
-Welcome to the Furaha Projects. This is a Christian Organisation open to each and every person and is the mother of all other initiatives under the Furaha Projects wing. Driving for social change and community development. 
-## Our Mission
-Guided by the Bible verse: 1 Peter 4:10, Is to be able to use the talents and abilities we are blessed with to bless others and to live and serve others. 
-## Our Vision
-As we believe that charity begins at home, the mission is to start community and personal development of our God given talents through presentation of opportunities and nuturing for long term results.
-## Core Initiatives
-* **Community Outreach:** Organising direct support frameworks for children and families.
-* **Education Support:** Bridging resources for everyone in the community.
-* **Data Transparency:** (Coming Soon) Using statistical mapping to track and display our direct local impact.
+# Operational Headquarters & Master Command Hub
+
+Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
+
+---
+
+## 📸 Community Impact Gallery
+
+
+---
+
+> ## Our Mission & Vision
+> Guided by the Bible verse: **1 Peter 4:10**, our mission is to be able to use the talents and abilities we are blessed with to bless others and to live and serve others. As we believe that charity begins at home, our vision is to start community and personal development of our God-given talents through presentation of opportunities and nurturing for long-term results.
+
+---
+
+## Core Operational Pillars
+* **🌍 Community Outreach:** Organizing direct support frameworks for children and families.
+* **📚 Education Support:** Bridging resources and local literacy gaps for everyone in the community.
+* **📊 Data Transparency:** Applying statistical mapping and predictive growth metrics to track and display our direct local network impact.
+
+---
+
+## 🏛️ OPERATIONAL BRANCH PORTALS
+
   
 <div class="card-grid">
 
