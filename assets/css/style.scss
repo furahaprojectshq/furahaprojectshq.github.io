@@ -189,3 +189,47 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   border-radius: 8px !important;
 }
 
+.overlay-close-gate {
+  display: none !important;
+}
+
+.overlay-contents {
+  position: relative !important;
+  max-width: 90% !important;
+  max-height: 85% !important;
+  z-index: 100000 !important;
+
+.gallery-close-btn {
+  position: absolute !important;
+  top: -20px !important;
+  right: -20px !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #ffffff !important;   
+  color: #0f172a !important;              
+  border-radius: 50% !important;          
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  z-index: 100001 !important;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.gallery-close-btn:hover {
+  transform: scale(1.15) !important;    
+  background-color: #f1f5f9 !important;   
+}
+
+@media (max-width: 768px) {
+  .gallery-close-btn {
+    top: 10px !important;
+    right: 10px !important;              
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 20px !important;
+  }
+}
