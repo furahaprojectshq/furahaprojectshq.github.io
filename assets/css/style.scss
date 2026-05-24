@@ -117,6 +117,8 @@ header, .page-header, .site-header {
   min-width: 200px !important;               
   box-sizing: border-box !important;
   text-align: center !important;
+  overflow: hidden !important; 
+  border-radius: 8px !important;
 }
 
 .main-content .gallery-frame img {
@@ -126,6 +128,13 @@ header, .page-header, .site-header {
   border-radius: 8px !important;    
   border: 1px solid #e2e8f0 !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04) !important; 
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important; 
+}
+
+.main-content .gallery-frame:hover img {
+  transform: scale(1.04) !important;          
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
+  border-color: #cbd5e1 !important;
 }
 
 .main-content .gallery-caption {
@@ -139,7 +148,6 @@ header, .page-header, .site-header {
 body, .main-content, p, li, h1, h2, h3, h4, span, a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
 }
-
 
 @media (max-width: 768px) {
   header, .page-header, .site-header {
@@ -169,68 +177,11 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   .main-content {
     margin-top: 150px !important; 
   }
-}
 
-.main-content .gallery-frame img {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important; 
-  cursor: pointer !important;
-}
-
-.main-content .gallery-frame:hover img {
-  transform: scale(1.04) !important;          
-  box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
-  border-color: #cbd5e1 !important;
-}
-
-.main-content .gallery-frame a {
-  text-decoration: none !important;
-  display: block !important;
-  overflow: hidden !important;  
-  border-radius: 8px !important;
-}
-
-.overlay-close-gate {
-  display: none !important;
-}
-
-.overlay-contents {
-  position: relative !important;
-  max-width: 90% !important;
-  max-height: 85% !important;
-  z-index: 100000 !important;
-
-.gallery-close-btn {
-  position: absolute !important;
-  top: -20px !important;
-  right: -20px !important;
-  width: 40px !important;
-  height: 40px !important;
-  background-color: #ffffff !important;   
-  color: #0f172a !important;              
-  border-radius: 50% !important;          
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  font-size: 24px !important;
-  font-weight: bold !important;
-  text-decoration: none !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
-  z-index: 100001 !important;
-  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-}
-
-.gallery-close-btn:hover {
-  transform: scale(1.15) !important;    
-  background-color: #f1f5f9 !important;   
-}
-
-@media (max-width: 768px) {
-  .gallery-close-btn {
-    top: 10px !important;
-    right: 10px !important;              
-    width: 36px !important;
-    height: 36px !important;
-    font-size: 20px !important;
+  .main-content .gallery-frame img {
+    height: auto !important;         
+    max-height: 340px !important;    
+    object-fit: contain !important;  
+    background-color: #ffffff !important; 
   }
-}
 }
