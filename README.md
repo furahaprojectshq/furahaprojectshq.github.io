@@ -29,29 +29,23 @@ Furaha Projects HQ operates as the centralized command hub powering a diverse ne
 </div>
 
 <div id="img1" class="gallery-overlay">
-  <a href="#" class="overlay-close-gate"></a>
   <div class="overlay-contents">
-    <a href="#">
-      <img src="outreach1.png" alt="Foundations of Leadership">
-    </a>
+    <a href="#" class="gallery-close-btn" title="Close Page">×</a>
+    <img src="outreach1.png" alt="Foundations of Leadership">
   </div>
 </div>
 
 <div id="img2" class="gallery-overlay">
-  <a href="#" class="overlay-close-gate"></a>
   <div class="overlay-contents">
-    <a href="#">
-      <img src="outreach2.jpeg" alt="The Creative Spark">
-    </a>
+    <a href="#" class="gallery-close-btn" title="Close Page">×</a>
+    <img src="outreach2.jpeg" alt="The Creative Spark">
   </div>
 </div>
 
 <div id="img3" class="gallery-overlay">
-  <a href="#" class="overlay-close-gate"></a>
   <div class="overlay-contents">
-    <a href="#">
-      <img src="outreach3.png" alt="Unity in Action">
-    </a>
+    <a href="#" class="gallery-close-btn" title="Close Page">×</a>
+    <img src="outreach3.png" alt="Unity in Action">
   </div>
 </div>
 
