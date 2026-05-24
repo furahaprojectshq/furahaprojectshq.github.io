@@ -7,27 +7,53 @@ Furaha Projects HQ operates as the centralized command hub powering a diverse ne
 ## 📸 Community Impact Gallery
 <div class="image-gallery">
   <div class="gallery-frame">
-    <a href="outreach1.png">
+    <a href="#img1">
       <img src="outreach1.png" alt="Foundations of Leadership - Furaha Projects">
     </a>
     <span class="gallery-caption">Foundations of Leadership</span>
   </div>
   
   <div class="gallery-frame">
-    <a href="outreach2.jpeg">
+    <a href="#img2">
       <img src="outreach2.jpeg" alt="The Creative Spark - Talanta Gala Preparation">
     </a>
     <span class="gallery-caption">The Creative Spark</span>
   </div>
   
   <div class="gallery-frame">
-    <a href="outreach3.png">
+    <a href="#img3">
       <img src="outreach3.png" alt="Unity in Action - Local Community Impact">
     </a>
     <span class="gallery-caption">Unity in Action</span>
   </div>
 </div>
 
+<div id="img1" class="gallery-overlay">
+  <a href="#" class="overlay-close-gate"></a>
+  <div class="overlay-contents">
+    <a href="#">
+      <img src="outreach1.png" alt="Foundations of Leadership">
+    </a>
+  </div>
+</div>
+
+<div id="img2" class="gallery-overlay">
+  <a href="#" class="overlay-close-gate"></a>
+  <div class="overlay-contents">
+    <a href="#">
+      <img src="outreach2.jpeg" alt="The Creative Spark">
+    </a>
+  </div>
+</div>
+
+<div id="img3" class="gallery-overlay">
+  <a href="#" class="overlay-close-gate"></a>
+  <div class="overlay-contents">
+    <a href="#">
+      <img src="outreach3.png" alt="Unity in Action">
+    </a>
+  </div>
+</div>
 
 ---
 
