@@ -7,18 +7,18 @@ Furaha Projects HQ operates as the centralized command hub powering a diverse ne
 ## 📸 Community Impact Gallery
 <div class="image-gallery">
   <div class="gallery-frame">
-    <img src="https://unsplash.com" alt="Community Support Frameworks">
-    <span class="gallery-caption">Community Outreach</span>
+    <img src="https://unsplash.com" alt="Foundations of Leardership-Furaha Projects">
+    <span class="gallery-caption">Foundations of Leadership</span>
   </div>
   
   <div class="gallery-frame">
-    <img src="https://unsplash.com" alt="Youth Leadership Showcase">
-    <span class="gallery-caption">Talanta Gala Showcase</span>
+    <img src="https://unsplash.com" alt="The Creative Spark-Talanta Gala Preparation">
+    <span class="gallery-caption">The Creative Spark</span>
   </div>
   
   <div class="gallery-frame">
-    <img src="https://unsplash.com" alt="Maternal Economic Pipelines">
-    <span class="gallery-caption">Maternal Hub Pipelines</span>
+    <img src="https://unsplash.com" alt="Unity in Action-Local Community Impact">
+    <span class="gallery-caption">Unity in Action</span>
   </div>
 </div>
 
