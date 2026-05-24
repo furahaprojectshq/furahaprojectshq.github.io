@@ -171,4 +171,21 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   }
 }
 
+.main-content .gallery-frame img {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important; 
+  cursor: pointer !important;
+}
+
+.main-content .gallery-frame:hover img {
+  transform: scale(1.04) !important;          
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
+  border-color: #cbd5e1 !important;
+}
+
+.main-content .gallery-frame a {
+  text-decoration: none !important;
+  display: block !important;
+  overflow: hidden !important;  
+  border-radius: 8px !important;
+}
 
