@@ -141,3 +141,34 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 
 
+@media (max-width: 768px) {
+  header, .page-header, .site-header {
+    height: 180px !important;     
+    padding: 1.2rem 0.5rem !important;
+  }
+  
+  .project-name {
+    font-size: 1.8rem !important;
+    letter-spacing: 2px !important;
+  }
+  
+  .project-tagline {
+    font-size: 0.75rem !important; 
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .site-nav ul {
+    gap: 12px !important;   
+  }
+  
+  .site-nav a {
+    font-size: 0.8rem !important; 
+    padding: 4px 6px !important;
+  }
+  
+  .main-content {
+    margin-top: 360px !important; 
+  }
+}
+
+
