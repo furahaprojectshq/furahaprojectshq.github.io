@@ -21,9 +21,10 @@ While the main competitive arena stage assembles for the official launch, our te
 <span class="gallery-caption">Foundations of Leadership</span>
 </div>
 <div class="gallery-frame">
-<img src="/outreach2.jpeg" alt="The Creative Spark" - Talanta Gala Preparation>
-<span class="gallery-caption">The Creative Spark</span>
+  <img src="/outreach2.jpeg" alt="The Creative Spark - Talanta Gala Preparation">
+  <span class="gallery-caption">The Creative Spark</span>
 </div>
+
 <div class="gallery-frame">
 <img src="outreach3.png" alt="Unit in Action - Local   Community Impact">
 <span class="gallery-caption">Unity in Action </span>
