@@ -4,7 +4,7 @@
   ## ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
   * Click on a track link below to jump direclty down the page insantly.
   * **[ 🎬 Jump to Track 1: The Talanta Gala] (#track-1-the-talanta-gala-launching-2026)**
-  * **[ 🎓 Jump to track 2: The Talanta Fellows] (#track-2-the-talanta-fellows-academy)**
+  * **[ 🎓 Jump to track 2: The Talanta Fellows] (#track-2-the-talanta-fellows-programme)**
 
     ---
 
@@ -60,4 +60,19 @@ Our headquarters compound functions as a vibrant local sports safe haven where n
       <span class="theater-caption">Neighborhood Team Drills</span>
   </div>
 </div>
+
+---
+
+### ⚖️ THE JUDICIAL SELECTION MATRIX PIPELINE
+During the final live event, an expert panel of industry judges will evaluate contestants across our core disciplines to select the **Top 5 Excellence Winners**. These chosen children are instantly awarded and secure a fully funded induction seat inside the prestigious **Talanta Fellows** academy, where they receive long-term guidance by experts in their field on how to nurture their talents and transform them into lucrative future professions.
+
+---
+
+## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME
+
+Securing a seat as a Talanta Fellow transitions a child from a raw local performer into an elite global leader equipped for long-term career sustainability and institutional growth.
+
+### 🏫 STRATEGIC SCHOOL & RESOURCE PARTNERSHIPS
+To guarantee deep permanence, the Fellows framework is deeply embedded directly inside local school networks. This ensures every student leader holds a constant, regular source of expert support, mentorship, and resources to successfully transform their creative gifts into sustainable, lucrative future professions.
+
 
