@@ -187,30 +187,33 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 
 
+
 .main-content .sports-theater-canvas {
   display: flex !important;
   flex-direction: row !important;
+  align-items: flex-start !important; 
   gap: 24px !important;
-  background-color: #0f172a !important;
+  background-color: #0f172a !important; 
   padding: 24px !important;
   border-radius: 12px !important;
-  margin: 25px 0 40px 0 !important;
+  margin: 30px 0 40px 0 !important;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3) !important;
   width: 100% !important;
   box-sizing: border-box !important;
 }
-
 .theater-screen-column {
   flex: 0 0 60% !important;
   max-width: 60% !important;
+  box-sizing: border-box !important;
 }
 
 .theater-screen-column video {
   width: 100% !important;
-  height: 340px !important;
+  height: 320px !important; 
   object-fit: cover !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+  display: block !important;
 }
 
 .theater-filmstrip-column {
@@ -219,18 +222,26 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   gap: 16px !important;
   flex: 0 0 calc(40% - 24px) !important;
   max-width: calc(40% - 24px) !important;
+  box-sizing: border-box !important;
+}
+
+.filmstrip-box {
+  width: 100% !important;
+  overflow: hidden !important;
+  border-radius: 6px !important;
 }
 
 .filmstrip-box img {
   width: 100% !important;
-  height: 150px !important; 
+  height: 140px !important;
   object-fit: cover !important;
   border-radius: 6px !important;
+  display: block !important;
   transition: transform 0.2s ease-in-out !important;
 }
 
 .filmstrip-box:hover img {
-  transform: scale(1.03) !important;
+  transform: scale(1.04) !important; 
 }
 
 .theater-caption {
@@ -245,6 +256,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 @media (max-width: 768px) {
   .main-content .sports-theater-canvas {
     flex-direction: column !important;
+    align-items: stretch !important;
     padding: 16px !important;
   }
   .theater-screen-column, .theater-filmstrip-column {
