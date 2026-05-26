@@ -3,8 +3,10 @@
  ---
   ## ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
   * Click on a track link below to jump direclty down the page insantly.
-  * **[ 🎬 Jump to Track 1: The Talanta Gala] (#track-1-the-talanta-gala-launching-2026)**
-  * **[ 🎓 Jump to track 2: The Talanta Fellows] (#track-2-the-talanta-fellows-programme)**
+<div class="track-pill-dock">
+  <a href="#track-1" class="pill-button track-gala-btn">🎬 Explore Gala Arena</a>
+  <a href="#track-2" class="pill-button track-fellows-btn">🎓 Open Fellows Registry</a>
+</div>
 
     ---
 
