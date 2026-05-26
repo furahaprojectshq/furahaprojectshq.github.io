@@ -267,3 +267,67 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     height: 220px !important; 
   }
 }
+
+.main-content .track-pill-dock {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 16px !important;
+  margin: 25px 0 35px 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.track-pill-dock .pill-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10px 22px !important;
+  border-radius: 30px !important;      
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.track-pill-dock .track-gala-btn {
+  background-color: #0f172a !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #1e293b !important;
+}
+
+.track-pill-dock .track-fellows-btn {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.track-pill-dock .pill-button:hover {
+  transform: translateY(-2px) scale(1.03) !important;
+  box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.1) !important;
+}
+
+/* Track 1 Hover Specific Color Shift */
+.track-pill-dock .track-gala-btn:hover {
+  background-color: #1e293b !important;
+}
+
+
+.track-pill-dock .track-fellows-btn:hover {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+}
+
+@media (max-width: 768px) {
+  .main-content .track-pill-dock {
+    flex-direction: column !important; 
+    gap: 12px !important;
+  }
+  .track-pill-dock .pill-button {
+    width: 100% !important;          
+    padding: 12px 16px !important;
+    font-size: 0.9rem !important;
+  }
+}
