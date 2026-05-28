@@ -12,7 +12,7 @@
 </div>
 
 <div id="track-gala" class="scroll-target-point"></div>
-## 🎬 TRACK 1: THE TALANTA GALA (LAUNCHING 2026) {#track-1}
+##  🎬 TRACK 1: THE TALANTA GALA (LAUNCHING 2026) {#track-1}
 
 The annual Talanta Gala functions as our signature community outreach pipeline built to discover raw, hidden local brilliance. This is a showcase popularly known as a Talent Show where children are given the opportunity to perform and display their various creative gifts.
 
@@ -75,7 +75,7 @@ During the final live event, an expert panel of industry judges will evaluate co
 
 ---
 <div id ="track-fellows" class="scroll-target-point"></div>
-## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {#track-2}
+##  🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {#track-2}
 
 Securing a seat as a Talanta Fellow transitions a child from a raw local performer into an elite global leader equipped for long-term career sustainability and institutional growth.
 
