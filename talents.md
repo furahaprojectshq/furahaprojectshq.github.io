@@ -1,15 +1,17 @@
 # 🎨 FURAHA TALENTS PORTAL: CREATIVE SKILLS & LEADERSHIP 
 * Welcome to the central command portal for our creative development branch. We operate a dual-track syste, engineered to discover raw localbrilliance and nurture it into lucrative, long-term leadership.
  ---
-  ## ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
-To easily explore our development pipelines, use the navigation panel buttons below to instantly jump straight to your chosen program track arena.
-<div id="track-gala"></div>
+ <div class="program-control-box">
+  <h3> ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
+<p>To easily explore our development pipelines, use the navigation panel buttons below to instantly jump straight to your chosen program track arena.
+
 <div class="track-pill-dock">
-  <a href="#track-1" class="pill-button">🎬 Explore Gala Arena</a>
-  <a href="#track-2" class="pill-button">🎓 Open Fellows Registry</a>
+  <a href="#track-1" class="pill-button">🎬 Explore Talanta Gala Arena</a>
+  <a href="#track-2" class="pill-button">🎓 Open Fellows Programme</a>
+</div>
 </div>
 
-
+<div id="track-gala" class="scroll-target-point"></div>
 ## 🎬 TRACK 1: THE TALANTA GALA (LAUNCHING 2026) {#track-1}
 
 The annual Talanta Gala functions as our signature community outreach pipeline built to discover raw, hidden local brilliance. This is a showcase popularly known as a Talent Show where children are given the opportunity to perform and display their various creative gifts.
