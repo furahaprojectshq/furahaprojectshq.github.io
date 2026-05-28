@@ -3,7 +3,7 @@
  ---
   ## ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
 To easily explore our development pipelines, use the navigation panel buttons below to instantly jump straight to your chosen program track arena.
-
+<div id="track-gala"></div>
 <div class="track-pill-dock">
   <a href="#track-1" class="pill-button">🎬 Explore Gala Arena</a>
   <a href="#track-2" class="pill-button">🎓 Open Fellows Registry</a>
