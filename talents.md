@@ -74,7 +74,7 @@ During the final live event, an expert panel of industry judges will evaluate co
 
 ---
 
-## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {track-2}
+## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {#track-2}
 
 Securing a seat as a Talanta Fellow transitions a child from a raw local performer into an elite global leader equipped for long-term career sustainability and institutional growth.
 
