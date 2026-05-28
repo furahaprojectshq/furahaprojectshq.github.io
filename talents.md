@@ -2,12 +2,12 @@
 * Welcome to the central command portal for our creative development branch. We operate a dual-track syste, engineered to discover raw localbrilliance and nurture it into lucrative, long-term leadership.
  ---
  <div class="program-control-box">
-  <h3> ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY
-<p>To easily explore our development pipelines, use the navigation panel buttons below to instantly jump straight to your chosen program track arena.
+  <h3> ⚡SELECT YOUR PROGRAM DISCOVERY PATHWAY</h3>
+<p>To easily explore our development pipelines, use the navigation panel buttons below to instantly jump straight to your chosen program track arena.</p>
 
 <div class="track-pill-dock">
-  <a href="#track-1" class="pill-button">🎬 Explore Talanta Gala Arena</a>
-  <a href="#track-2" class="pill-button">🎓 Open Fellows Programme</a>
+  <a href="#track-gala" class="pill-button">🎬 Explore Talanta Gala Arena</a>
+  <a href="#track-fellows" class="pill-button">🎓 Open Fellows Programme</a>
 </div>
 </div>
 
@@ -21,7 +21,7 @@ While the main competitive arena stage assembles for the official launch, our te
 
 <div class="image-gallery">
 <div class="gallery-frame">
-<img src="outreach1.png" alt="Foundations of Leadership - Furaha Projects">
+<img src="/outreach1.png" alt="Foundations of Leadership - Furaha Projects">
 <span class="gallery-caption">Foundations of Leadership</span>
 </div>
 <div class="gallery-frame">
@@ -30,7 +30,7 @@ While the main competitive arena stage assembles for the official launch, our te
 </div>
 
 <div class="gallery-frame">
-<img src="outreach3.png" alt="Unit in Action - Local   Community Impact">
+<img src="/outreach3.png" alt="Unit in Action - Local   Community Impact">
 <span class="gallery-caption">Unity in Action </span>
 </div>
 </div>
@@ -74,7 +74,7 @@ Our headquarters compound functions as a vibrant local sports safe haven where n
 During the final live event, an expert panel of industry judges will evaluate contestants across our core disciplines to select the **Top 5 Excellence Winners**. These chosen children are instantly awarded and secure a fully funded induction seat inside the prestigious **Talanta Fellows** academy, where they receive long-term guidance by experts in their field on how to nurture their talents and transform them into lucrative future professions.
 
 ---
-<div id ="scroll-target-point"></div>
+<div id ="track-fellows" class="scroll-target-point"></div>
 ## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {#track-2}
 
 Securing a seat as a Talanta Fellow transitions a child from a raw local performer into an elite global leader equipped for long-term career sustainability and institutional growth.
