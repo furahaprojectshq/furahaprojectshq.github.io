@@ -9,7 +9,6 @@ To easily explore our development pipelines, use the navigation panel buttons be
   <a href="#track-2" class="pill-button">🎓 Open Fellows Registry</a>
 </div>
 
-    ---
 
 ## 🎬 TRACK 1: THE TALANTA GALA (LAUNCHING 2026) {#track-1}
 
