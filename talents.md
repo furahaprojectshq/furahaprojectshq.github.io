@@ -74,7 +74,7 @@ Our headquarters compound functions as a vibrant local sports safe haven where n
 During the final live event, an expert panel of industry judges will evaluate contestants across our core disciplines to select the **Top 5 Excellence Winners**. These chosen children are instantly awarded and secure a fully funded induction seat inside the prestigious **Talanta Fellows** academy, where they receive long-term guidance by experts in their field on how to nurture their talents and transform them into lucrative future professions.
 
 ---
-
+<div id ="scroll-target-point"></div>
 ## 🎓 TRACK 2: THE TALANTA FELLOWS PROGRAMME {#track-2}
 
 Securing a seat as a Talanta Fellow transitions a child from a raw local performer into an elite global leader equipped for long-term career sustainability and institutional growth.
