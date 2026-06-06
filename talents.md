@@ -48,24 +48,6 @@ While the main competitive arena stage assembles for the official launch, our te
 ### ⚽ COMPOUND ATHLETIC INVOLVEMENT & OUTREACH
 Our headquarters compound functions as a vibrant local sports safe haven where neighborhood children gather daily for football matches and training. By channeling their energy into team sports, we provide a constructive, supportive space that fosters teamwork and positive community involvement from the ground up.
 
-<div class="sports-theater-canvas">
-  <div class="theater-screen-column">
-    <video src="football_clip.mp4" controls preload="metadata"></video>
-    <span class="theater-caption">🎬 Active Compound Action Footage</span>
-  </div>
-  
-  <div class="theater-filmstrip-column">
-    <div class="filmstrip-box">
-      <img src="/football1.png" alt="Furaha Projects Football Team Lineup">
-      <span class="theater-caption">Athletic Groundwork</span>
-    </div>
-    
-    <div class="filmstrip-box">
-      <img src="/football2.png" alt="Compound Football Drills">
-      <span class="theater-caption">Neighborhood Team Drills</span>
-    </div> 
-  </div> 
-</div> 
 
 <div class="sports-theater-canvas">
   
