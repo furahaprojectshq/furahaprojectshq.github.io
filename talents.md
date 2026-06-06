@@ -61,12 +61,12 @@ Our headquarters compound functions as a vibrant local sports safe haven where n
   <div class="theater-filmstrip-column">
     <div class="filmstrip-box">
       <img src="assets/images/football1.jpeg" alt="Furaha Projects Football Team Lineup">
-      <span class="theater-caption">Athletic Groundwork</span>
+      <span class="theater-caption">Neighbourhood Team Photo</span>
     </div>
     
     <div class="filmstrip-box">
       <img src="assets/images/football2.png" alt="Compound Football Drills">
-      <span class="theater-caption">Neighborhood Team Drills</span>
+      <span class="theater-caption">Neighborhood Team Love</span>
     </div>
   </div>
   
