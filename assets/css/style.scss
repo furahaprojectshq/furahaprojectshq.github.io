@@ -495,94 +495,252 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   }
 }
 
-
 /* ==================================================
-   16. HOMEPAGE HERO SECTION
+   16. HOMEPAGE HERO SECTION - CINEMATIC VERSION
 
    Purpose:
-   Creates the split-screen homepage entrance:
-   text on the left, image on the right.
+   Creates a modern cinematic homepage hero
+   where the image becomes the background
+   and the text sits on top.
 
-   This is the section that makes the homepage feel
-   more like a real organization instead of a report.
+   Why this approach?
+   - avoids awkward image cropping
+   - removes empty white space
+   - creates stronger emotional storytelling
+   - looks more modern and immersive
 ================================================== */
 
 .hero-section {
+
+  /* Sets a minimum height for the hero section */
+  min-height: 520px !important;
+
+  /* Adds spacing INSIDE the hero section
+     top/bottom = 70px
+     left/right = 60px */
+  padding: 70px 60px !important;
+
+  /* Adds space BELOW the hero section */
+  margin-bottom: 70px !important;
+
+  /* Flexbox lets us position content easily */
   display: flex !important;
+
+  /* Vertically centers the text */
   align-items: center !important;
-  justify-content: space-between !important;
-  gap: 50px !important;
-  margin-bottom: 80px !important;
-  padding: 20px 40px 0 !important;
+
+  /* ==================================================
+     BACKGROUND SYSTEM
+
+     We are layering TWO things:
+     1. dark transparent gradient
+     2. actual image
+
+     Why?
+     So white text becomes easier to read.
+  ================================================== */
+
+  background-image:
+
+    /* Dark transparent overlay */
+    linear-gradient(
+      90deg,
+
+      /* Darkest on left side for text readability */
+      rgba(15, 23, 42, 0.92),
+
+      /* Medium darkness in middle */
+      rgba(15, 23, 42, 0.65),
+
+      /* Light transparency near image side */
+      rgba(15, 23, 42, 0.15)
+    ),
+
+    /* Actual hero image */
+    url("/assets/images/hero.jpeg") !important;
+
+  /* Makes image fill the entire hero area */
+  background-size: cover !important;
+
+  /* Keeps image centered */
+  background-position: center !important;
+
+  /* Prevents image repeating */
+  background-repeat: no-repeat !important;
+
+  /* Rounded corners */
+  border-radius: 22px !important;
+
+  /* Prevents overflow glitches */
+  overflow: hidden !important;
+
+  /* Creates cinematic shadow depth */
+  box-shadow: 0 25px 50px rgba(15, 23, 42, 0.22) !important;
 }
+
+
+/* ==================================================
+   HERO TEXT CONTAINER
+
+   Purpose:
+   Controls width of the text block.
+================================================== */
 
 .hero-text {
-  flex: 1 !important;
+
+  /* Prevents text from becoming too wide */
+  max-width: 650px !important;
 }
+
+
+/* ==================================================
+   MAIN HERO HEADLINE
+
+   Purpose:
+   Creates the large dramatic homepage title.
+================================================== */
 
 .hero-text h1 {
-  font-size: 3.5rem !important;
-  line-height: 1.1 !important;
-  font-weight: 800 !important;
-  color: #0f172a !important;
-  margin-bottom: 20px !important;
+
+  /* Large font size */
+  font-size: 4rem !important;
+
+  /* Controls spacing between text lines */
+  line-height: 1.05 !important;
+
+  /* Extra bold */
+  font-weight: 900 !important;
+
+  /* White text for dark background */
+  color: #ffffff !important;
+
+  /* Space below heading */
+  margin-bottom: 22px !important;
 }
+
+
+/* ==================================================
+   HERO PARAGRAPH
+
+   Purpose:
+   Styles the smaller descriptive text.
+================================================== */
 
 .hero-text p {
+
+  /* Medium-large paragraph size */
   font-size: 1.15rem !important;
+
+  /* Improves readability */
   line-height: 1.8 !important;
-  color: #475569 !important;
+
+  /* Soft light gray color */
+  color: #e2e8f0 !important;
+
+  /* Space below paragraph */
   margin-bottom: 30px !important;
-  max-width: 600px !important;
+
+  /* Prevents overly long text lines */
+  max-width: 560px !important;
 }
 
-.hero-image {
-  flex: 1 !important;
-}
 
-.hero-image img {
-  width: 100% !important;
-  height: 500px !important;
-  object-fit: contain !important;
-  border-radius: 18px !important;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
-}
+/* ==================================================
+   HERO BUTTON
+
+   Purpose:
+   Creates the teal call-to-action button.
+================================================== */
 
 .hero-button {
+
+  /* Allows padding + sizing */
   display: inline-block !important;
+
+  /* Teal background */
   background-color: #14b8a6 !important;
+
+  /* White text */
   color: white !important;
+
+  /* Removes underline */
   text-decoration: none !important;
+
+  /* Internal spacing */
   padding: 14px 28px !important;
+
+  /* Rounded corners */
   border-radius: 10px !important;
+
+  /* Bold text */
   font-weight: 700 !important;
+
+  /* Smooth hover animation */
   transition: all 0.25s ease !important;
 }
 
+
+/* ==================================================
+   HERO BUTTON HOVER EFFECT
+
+   Purpose:
+   Makes button feel interactive.
+================================================== */
+
 .hero-button:hover {
+
+  /* Slightly darker teal */
   background-color: #0d9488 !important;
+
+  /* Small upward movement */
   transform: translateY(-2px) !important;
 }
 
 
 /* ==================================================
-   17. MOBILE RULES FOR HOMEPAGE HERO
+   OLD HERO IMAGE CONTAINER
 
    Purpose:
-   On phones, the split-screen hero becomes stacked:
-   text first, image second.
+   Hides the old separate image box because
+   we now use a background image instead.
+================================================== */
+
+.hero-image {
+
+  display: none !important;
+}
+
+
+/* ==================================================
+   17. MOBILE RULES FOR HERO SECTION
+
+   Purpose:
+   Makes hero section responsive on phones.
 ================================================== */
 
 @media (max-width: 768px) {
+
   .hero-section {
-    flex-direction: column !important;
+
+    /* Slightly smaller hero height */
+    min-height: 500px !important;
+
+    /* Smaller padding for phones */
+    padding: 45px 25px !important;
+
+    /* Keeps image centered */
+    background-position: center !important;
   }
 
   .hero-text h1 {
-    font-size: 2.4rem !important;
+
+    /* Smaller headline for mobile */
+    font-size: 2.7rem !important;
   }
 
-  .hero-image img {
-    height: 320px !important;
+  .hero-text p {
+
+    /* Slightly smaller paragraph text */
+    font-size: 1rem !important;
   }
 }
