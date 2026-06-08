@@ -515,7 +515,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   margin-left: calc(50% - 50vw) !important;
   margin-right: calc(50% - 50vw) !important;
   /* Sets a minimum height for the hero section */
-  min-height: 520px !important;
+  min-height: 470px !important;
 
   /* Adds spacing INSIDE the hero section
      top/bottom = 70px
@@ -578,7 +578,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Creates cinematic shadow depth */
   box-shadow: 0 25px 50px rgba(15, 23, 42, 0.22) !important;
-   outline: 5px solid red !important;
+   
 }
 
 
@@ -593,6 +593,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Prevents text from becoming too wide */
   max-width: 650px !important;
+    padding-left: 40px !important;
 }
 
 
@@ -619,6 +620,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Space below heading */
   margin-bottom: 22px !important;
+   text-shadow: 0 4px 18px rgba(0,0,0,0.35) !important;
 }
 
 
@@ -645,6 +647,8 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Prevents overly long text lines */
   max-width: 560px !important;
+   /* This creates subtle separation between text and image. Without needing a huge dark overlay. */
+   text-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
 }
 
 
