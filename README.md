@@ -3,9 +3,9 @@
     
 <h1>Discovering Talent.<br>Creating Futures.</h1>
 <p>
-  Furaha Projects identifies hidden potential, nurtures creaivity, and creatws opportunities for young people through mentorship, sports, arts, and community development.
+  Furaha Projects identifies hidden potential, nurtures creaivity, and creates opportunities for young people through mentorship, sports, arts, and community development.
 </p>
-<a href="talents" class="hero button">
+<a href="talents" class="hero-button">
   Explore Our Work →
 </a>
 </div>
