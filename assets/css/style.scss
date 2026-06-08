@@ -163,7 +163,7 @@ header, .page-header, .site-header {
 .main-content {
   margin-top: 105px !important; 
   max-width: 1200px !important; 
-  width: 90% !important;
+  width: 98% !important;
   padding: 2rem 1.5rem !important; 
   box-sizing: border-box !important;
 }
@@ -547,13 +547,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
       90deg,
 
       /* Darkest on left side for text readability */
-      rgba(15, 23, 42, 0.92),
+      rgba(15, 23, 42, 0.72),
 
       /* Medium darkness in middle */
-      rgba(15, 23, 42, 0.65),
+      rgba(15, 23, 42, 0.38),
 
       /* Light transparency near image side */
-      rgba(15, 23, 42, 0.15)
+      rgba(15, 23, 42, 0.05)
     ),
 
     /* Actual hero image */
