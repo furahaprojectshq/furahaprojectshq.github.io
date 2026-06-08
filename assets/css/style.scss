@@ -562,14 +562,14 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   /* Makes image fill the entire hero area */
   background-size: cover !important;
 
-  /* Keeps image centered */
-  background-position: center !important;
+  /* Keeps image left centered */
+  background-position: left center !important;
 
   /* Prevents image repeating */
   background-repeat: no-repeat !important;
 
   /* Rounded corners */
-  border-radius: 22px !important;
+  border-radius: 0px !important;
 
   /* Prevents overflow glitches */
   overflow: hidden !important;
