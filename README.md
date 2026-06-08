@@ -1,3 +1,10 @@
+<h1>Discovering Talent.<br>Creating Futures.</h1>
+<p>
+  Furaha Projects identifies hidden potential, nurtures creaivity, and creatws opportunities for young people through mentorship, sports, arts, and community development.
+</p>
+<a href="talents" class="hero button">
+  Explore Our Work →
+</a>
 ## Operational Headquarters & Master Command Hub
 
 Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
