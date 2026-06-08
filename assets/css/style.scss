@@ -161,7 +161,7 @@ header, .page-header, .site-header {
 ================================================== */
 
 .main-content {
-  margin-top: 150px !important; 
+  margin-top: 105px !important; 
   max-width: 1200px !important; 
   width: 90% !important;
   padding: 2rem 1.5rem !important; 
@@ -513,7 +513,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   justify-content: space-between !important;
   gap: 50px !important;
   margin-bottom: 80px !important;
-  padding: 40px 0 !important;
+  padding: 20px 40px 0 !important;
 }
 
 .hero-text {
@@ -543,7 +543,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 .hero-image img {
   width: 100% !important;
   height: 500px !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   border-radius: 18px !important;
   box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
 }
