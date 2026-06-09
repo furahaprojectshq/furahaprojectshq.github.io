@@ -612,7 +612,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 .verse-card {
   position: absolute !important;
   right: 70px !important;
-  bottom: 18px !important;
+  bottom: 8px !important;
   z-index: 4 !important;
 
   max-width: 330px !important;
@@ -884,14 +884,12 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     #ffffff,
     #f8fafc
   ) !important;
-
+border: 1px solid #e2e8f0 !important;
   border-top: 5px solid #14b8a6 !important;
 
   padding: 35px 28px !important;
 
   border-radius: 18px !important;
-
-  border: 1px solid #e2e8f0 !important;
 
   text-align: left !important;
 
