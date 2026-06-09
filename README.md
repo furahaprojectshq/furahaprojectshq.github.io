@@ -10,7 +10,7 @@
 </a>
 </div>
 <div class="hero-image">
-<img src="/assets/images/hero2.jpeg" alt="Furaha Projects Hero Image">
+<img src="/assets/images/hero2.png" alt="Furaha Projects Hero Image">
   </div>
 
 </div>
