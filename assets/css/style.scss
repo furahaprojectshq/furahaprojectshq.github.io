@@ -842,7 +842,12 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
 .program-card {
 
-  background-color: #ffffff !important;
+  background: linear-gradient(
+145deg,
+#ffffff,
+#f8fafc
+) !important;
+   border-top: 5px solid #14b8a6 !important;
 
   padding: 35px 28px !important;
 
@@ -870,6 +875,11 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     0 20px 35px rgba(0,0,0,0.08) !important;
 
   border-color: #cbd5e1 !important;
+   background: linear-gradient(
+145deg,
+#ffffff,
+#f0fdfa
+) !important;
 }
 
 
@@ -885,6 +895,11 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   color: #0f172a !important;
 
   margin-bottom: 16px !important;
+   display: flex !important;
+
+align-items: center !important;
+
+gap: 10px !important;
 }
 
 
