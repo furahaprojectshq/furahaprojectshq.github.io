@@ -589,13 +589,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   background-size: cover !important;
 
   /* Centers the important subjects */
-  background-position: center center !important;
+  background-position: 38% center !important;
 
   /* Stops image repeating */
   background-repeat: no-repeat !important;
 
   /* Slight brightness boost */
-  filter: brightness(1.15) contrast(1.05) !important;
+  filter: brightness(1.38) contrast(1.12) saturate(1.08) !important;
 
   /* Places image BEHIND text */
   z-index: 1 !important;
@@ -639,7 +639,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     rgba(6, 25, 35, 0.95) 28%,
 
     /* Mid fade transition */
-    rgba(6, 25, 35, 0.55) 48%,
+    rgba(6, 25, 35, 0.32) 48%,
 
     /* Very light fade */
     rgba(6, 25, 35, 0.10) 75%,
