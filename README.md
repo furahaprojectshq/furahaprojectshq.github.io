@@ -41,6 +41,7 @@
   </div>
 
 </div>
+
 ## Operational Headquarters & Master Command Hub
 
 Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
