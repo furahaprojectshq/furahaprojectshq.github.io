@@ -747,3 +747,181 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     font-size: 1.5rem !important;
   }
 }
+
+/* ==================================================
+   19. WHAT WE DO SECTION
+   --------------------------------------------------
+   PURPOSE:
+   Explains Furaha's major program areas using
+   modern responsive cards.
+
+   DESIGN GOAL:
+   - Professional nonprofit feel
+   - Clean breathing space
+   - Strong visual hierarchy
+   - Easy to scan quickly
+================================================== */
+
+.what-we-do {
+
+  padding: 40px 0 80px 0 !important;
+
+  text-align: center !important;
+}
+
+
+
+/* SMALL TOP LABEL */
+
+.section-label {
+
+  font-size: 0.85rem !important;
+
+  font-weight: 800 !important;
+
+  letter-spacing: 2px !important;
+
+  color: #14b8a6 !important;
+
+  margin-bottom: 12px !important;
+}
+
+
+
+/* MAIN TITLE */
+
+.what-we-do h2 {
+
+  font-size: 3rem !important;
+
+  font-weight: 800 !important;
+
+  color: #0f172a !important;
+
+  margin-bottom: 18px !important;
+}
+
+
+
+/* INTRO TEXT */
+
+.section-intro {
+
+  max-width: 720px !important;
+
+  margin: 0 auto 50px auto !important;
+
+  font-size: 1.08rem !important;
+
+  line-height: 1.8 !important;
+
+  color: #475569 !important;
+}
+
+
+
+/* ==================================================
+   PROGRAM GRID
+================================================== */
+
+.program-grid {
+
+  display: grid !important;
+
+  /* Creates responsive columns automatically */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+
+  gap: 28px !important;
+}
+
+
+
+/* ==================================================
+   INDIVIDUAL PROGRAM CARD
+================================================== */
+
+.program-card {
+
+  background-color: #ffffff !important;
+
+  padding: 35px 28px !important;
+
+  border-radius: 18px !important;
+
+  border: 1px solid #e2e8f0 !important;
+
+  text-align: left !important;
+
+  transition: all 0.28s ease !important;
+
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.04) !important;
+}
+
+
+
+/* CARD HOVER EFFECT */
+
+.program-card:hover {
+
+  transform: translateY(-8px) !important;
+
+  box-shadow:
+    0 20px 35px rgba(0,0,0,0.08) !important;
+
+  border-color: #cbd5e1 !important;
+}
+
+
+
+/* PROGRAM TITLE */
+
+.program-card h3 {
+
+  font-size: 1.35rem !important;
+
+  font-weight: 800 !important;
+
+  color: #0f172a !important;
+
+  margin-bottom: 16px !important;
+}
+
+
+
+/* PROGRAM DESCRIPTION */
+
+.program-card p {
+
+  font-size: 1rem !important;
+
+  line-height: 1.8 !important;
+
+  color: #475569 !important;
+
+  margin: 0 !important;
+}
+
+
+
+/* ==================================================
+   MOBILE ADJUSTMENTS
+================================================== */
+
+@media (max-width: 768px) {
+
+  .what-we-do h2 {
+
+    font-size: 2.2rem !important;
+  }
+
+  .section-intro {
+
+    font-size: 1rem !important;
+  }
+
+  .program-card {
+
+    padding: 28px 22px !important;
+  }
+}
