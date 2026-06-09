@@ -549,13 +549,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
       90deg,
 
       /* Darkest on left side for text readability */
-      rgba(15, 23, 42, 0.55),
+      rgba(15, 23, 42, 0.68),
 
       /* Medium darkness in middle */
-      rgba(15, 23, 42, 0.25),
+      rgba(15, 23, 42, 0.30),
 
       /* Light transparency near image side */
-      rgba(15, 23, 42, 0.02)
+      rgba(15, 23, 42, 0.00)
     ),
 
     /* Actual hero image */
@@ -564,8 +564,8 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   /* Makes image fill the entire hero area */
   background-size: cover !important;
 
-  /* Keeps image right centered */
-  background-position: right center !important;
+  /* Keeps image 65% centered */
+  background-position: 65% center !important;
 
   /* Prevents image repeating */
   background-repeat: no-repeat !important;
@@ -593,7 +593,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Prevents text from becoming too wide */
   max-width: 650px !important;
-    padding-left: 40px !important;
+    padding-left: 20px !important;
 }
 
 
