@@ -608,7 +608,44 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 .hero-image {
   display: none !important;
 }
+/* This is the verse card that is on the hero section*/
+.verse-card {
+  position: absolute !important;
+  right: 70px !important;
+  bottom: 45px !important;
+  z-index: 4 !important;
 
+  max-width: 330px !important;
+  padding: 24px 26px !important;
+
+  background: rgba(6, 25, 35, 0.72) !important;
+  border: 1px solid rgba(20, 184, 166, 0.65) !important;
+  border-radius: 16px !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 18px 35px rgba(0,0,0,0.25) !important;
+}
+
+.verse-card p {
+  color: #ffffff !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.verse-card span {
+  color: #14b8a6 !important;
+  font-weight: 800 !important;
+}
+
+@media (max-width: 768px) {
+  .verse-card {
+    position: relative !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin-top: 25px !important;
+    max-width: 100% !important;
+  }
+}
 /* ==================================================
    17. MOBILE HERO RULES
 ================================================== */
