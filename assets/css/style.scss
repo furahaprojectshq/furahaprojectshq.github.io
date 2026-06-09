@@ -496,361 +496,144 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 /* ==================================================
    16. HOMEPAGE HERO SECTION
-   --------------------------------------------------
-   PURPOSE:
-   This is the large cinematic top section of the homepage.
-
-   DESIGN GOAL:
-   - Text sits safely on the LEFT
-   - Image remains visible on the RIGHT
-   - Smooth fade blends text area into image
-   - Creates emotional storytelling atmosphere
-
-   VERY IMPORTANT:
-   We are NO LONGER using a normal <img> layout.
-   The image is now controlled completely by CSS
-   using a background-image layer system.
-
-   STRUCTURE:
-   Layer 1 = dark background
-   Layer 2 = image
-   Layer 3 = fade overlay
-   Layer 4 = text content
 ================================================== */
 
 .hero-section {
-
-  /* Makes the hero stretch across the FULL browser width */
   width: 100vw !important;
-
-  /* Creates full-width effect even inside centered containers */
   margin-left: calc(50% - 50vw) !important;
   margin-right: calc(50% - 50vw) !important;
 
-  /* Minimum height of the hero section */
   min-height: 500px !important;
-
-  /* Space BELOW the hero before next section starts */
   margin-bottom: 70px !important;
-
-  /* Inner spacing INSIDE the hero */
   padding: 70px 60px !important;
 
-  /* Flexbox allows easy vertical centering of text */
   display: flex !important;
   align-items: center !important;
 
-  /* Deep navy base color behind everything */
   background-color: #061923 !important;
-
-  /* Needed because our image + overlays use absolute positioning */
   position: relative !important;
-
-  /* Prevents image layers from spilling outside section */
   overflow: hidden !important;
 }
 
-
-
-/* ==================================================
-   HERO IMAGE LAYER
-   --------------------------------------------------
-   PURPOSE:
-   Creates the actual photo layer on the RIGHT side.
-
-   IMPORTANT:
-   ::before creates a fake element entirely in CSS.
-   This lets us control the hero image separately
-   from the text.
-================================================== */
-
+/* HERO IMAGE LAYER */
 .hero-section::before {
-
-  /* Required for pseudo-elements to appear */
   content: "" !important;
-
-  /* Allows precise positioning */
   position: absolute !important;
 
-  /* Pins image to top-right corner */
   top: 0 !important;
   right: 0 !important;
 
-  /* Image takes up MOSTLY the right side */
   width: 72% !important;
-
-  /* Full height of hero section */
   height: 100% !important;
 
-  /* HERO IMAGE PATH */
   background-image: url("/assets/images/hero1.jpeg") !important;
-
-  /* Prevents image stretching */
   background-size: cover !important;
-
-  /* Centers the important subjects */
   background-position: 38% center !important;
-
-  /* Stops image repeating */
   background-repeat: no-repeat !important;
 
-  /* Slight brightness boost */
-  filter:
-     brightness(1.28) contrast(1.18) saturate(1.12)
-     
-  /* Places image BEHIND text */
-z-index: 1 !important;
+  filter: none !important;
+  opacity: 0.92 !important;
+
+  z-index: 1 !important;
 }
 
-
-
-/* ==================================================
-   FADE OVERLAY LAYER
-   --------------------------------------------------
-   PURPOSE:
-   Creates the cinematic dark fade from LEFT to RIGHT.
-
-   WHY?
-   Without this:
-   - text becomes hard to read
-   - image becomes visually chaotic
-
-   The fade creates:
-   calm text area -> smooth transition -> visible image
-================================================== */
-
+/* FADE + SKY DARKENER */
 .hero-section::after {
-
   content: "" !important;
-
   position: absolute !important;
-
-  /* Covers ENTIRE hero area */
   inset: 0 !important;
 
-  /* LEFT-TO-RIGHT cinematic fade */
-  background: linear-gradient(
+  background:
+    linear-gradient(
+      90deg,
+      rgba(2, 12, 18, 0.96) 0%,
+      rgba(2, 12, 18, 0.92) 22%,
+      rgba(2, 12, 18, 0.50) 46%,
+      rgba(2, 12, 18, 0.10) 72%,
+      rgba(2, 12, 18, 0.00) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(2, 12, 18, 0.45) 0%,
+      rgba(2, 12, 18, 0.10) 28%,
+      rgba(2, 12, 18, 0.00) 48%
+    ) !important;
 
-    90deg,
-
-    /* LEFT SIDE = fully dark for text readability */
-    rgba(6, 25, 35, 1) 0%,
-
-    /* Still dark */
-    rgba(6, 25, 35, 0.92) 24%,
-
-    /* Mid fade transition */
-    rgba(6, 25, 35, 0.45) 45%,
-
-    /* Very light fade */
-    rgba(6, 25, 35, 0.08) 70%,
-
-    /* Fully transparent on far right */
-    rgba(6, 25, 35, 0.12) 100%
-  ), 
-     linear-gradient(
-180deg,
-rgba(6, 25, 35, 0.28) 0%,
-rgba(6, 25, 35, 0.00) 30%
-     !important;
-
-  /* Places fade ABOVE image but BELOW text */
   z-index: 2 !important;
 }
 
-
-
-/* ==================================================
-   HERO TEXT CONTAINER
-   --------------------------------------------------
-   PURPOSE:
-   Holds:
-   - headline
-   - paragraph
-   - button
-
-   IMPORTANT:
-   z-index 3 ensures text stays ABOVE overlays
-================================================== */
-
 .hero-text {
-
-  /* Places text above image + overlays */
   position: relative !important;
   z-index: 3 !important;
-
-  /* Prevents text from becoming too wide */
   max-width: 620px !important;
-
-  /* Pushes text slightly inward from left edge */
   padding-left: 30px !important;
 }
 
-
-
-/* ==================================================
-   HERO MAIN HEADLINE
-================================================== */
-
 .hero-text h1 {
-
-  /* Large dramatic heading */
   font-size: 4rem !important;
-
-  /* Tight line spacing */
   line-height: 1.05 !important;
-
-  /* Heavy bold weight */
   font-weight: 900 !important;
-
-  /* White text for contrast */
   color: #ffffff !important;
-
   margin-bottom: 22px !important;
-
-  /* Soft cinematic shadow */
   text-shadow: 0 4px 18px rgba(0,0,0,0.35) !important;
 }
 
-
-
-/* ==================================================
-   HERO PARAGRAPH
-================================================== */
-
 .hero-text p {
-
   font-size: 1.15rem !important;
-
   line-height: 1.8 !important;
-
   color: #e2e8f0 !important;
-
   margin-bottom: 30px !important;
-
   max-width: 560px !important;
-
-  /* Helps readability on top of image */
   text-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
 }
 
-
-
-/* ==================================================
-   HERO BUTTON
-================================================== */
-
 .hero-button {
-
   display: inline-block !important;
-
-  /* Furaha teal brand color */
   background-color: #14b8a6 !important;
-
   color: white !important;
-
   text-decoration: none !important;
-
   padding: 14px 28px !important;
-
   border-radius: 10px !important;
-
   font-weight: 700 !important;
-
   transition: all 0.25s ease !important;
 }
 
-
-
-/* ==================================================
-   BUTTON HOVER EFFECT
-================================================== */
-
 .hero-button:hover {
-
-  /* Slightly darker teal on hover */
   background-color: #0d9488 !important;
-
-  /* Tiny lift animation */
   transform: translateY(-2px) !important;
 }
-
-
-
-/* ==================================================
-   HIDE OLD IMAGE CONTAINER
-   --------------------------------------------------
-   IMPORTANT:
-   We no longer use the old HTML image block visually.
-
-   CSS background-image has replaced it.
-================================================== */
 
 .hero-image {
   display: none !important;
 }
 
-
-
 /* ==================================================
    17. MOBILE HERO RULES
-   --------------------------------------------------
-   PURPOSE:
-   Adjusts hero for phones/tablets.
-
-   WHY?
-   Desktop layouts break on small screens.
 ================================================== */
 
 @media (max-width: 768px) {
-
   .hero-section {
-
-    /* Taller on mobile for readability */
     min-height: 520px !important;
-
-    /* Smaller padding on phones */
     padding: 45px 25px !important;
   }
 
-
-
-  /* Mobile image layer */
   .hero-section::before {
-
-    /* Image takes full width on phones */
     width: 100% !important;
-
-    /* Slight transparency for text readability */
     opacity: 0.75 !important;
   }
 
-
-
-  /* Mobile dark overlay */
   .hero-section::after {
-
-    /* Simpler dark overlay for small screens */
     background: rgba(6, 25, 35, 0.65) !important;
   }
 
-
-
-  /* Removes desktop left spacing */
   .hero-text {
     padding-left: 0 !important;
   }
 
-
-
-  /* Smaller mobile headline */
   .hero-text h1 {
     font-size: 2.7rem !important;
   }
 
-
-
-  /* Smaller paragraph text */
   .hero-text p {
     font-size: 1rem !important;
   }
