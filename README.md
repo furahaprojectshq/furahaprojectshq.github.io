@@ -41,7 +41,46 @@
   </div>
 
 </div>
+<!-- =========================================
+     WHAT WE DO SECTION
+========================================= -->
 
+<section class="what-we-do">
+
+  <p class="section-label">WHAT WE DO</p>
+
+  <h2>Nurturing Every Gift</h2>
+
+  <p class="section-intro">
+    Furaha Projects creates safe spaces where young people can discover,
+    develop, and use their gifts with purpose.
+  </p>
+
+  <div class="program-grid">
+
+    <div class="program-card">
+      <h3>🎨 Creative Arts</h3>
+      <p>Unlocking creativity through drawing, painting, music, dance, and design.</p>
+    </div>
+
+    <div class="program-card">
+      <h3>⚽ Sports & Athletics</h3>
+      <p>Building discipline, teamwork, confidence, and leadership through sports.</p>
+    </div>
+
+    <div class="program-card">
+      <h3>📚 Mentorship & Education</h3>
+      <p>Guiding young people toward academic growth, character, and future opportunities.</p>
+    </div>
+
+    <div class="program-card">
+      <h3>👗 Fashion & Design</h3>
+      <p>Helping young creatives explore style, design, entrepreneurship, and innovation.</p>
+    </div>
+
+  </div>
+
+</section>
 ## Operational Headquarters & Master Command Hub
 
 Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
