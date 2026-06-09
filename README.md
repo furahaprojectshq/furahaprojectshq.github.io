@@ -14,7 +14,33 @@
   </div>
 
 </div>
-  
+  <!-- =========================================
+     IMPACT TRUST BAR
+========================================= -->
+
+<div class="impact-bar">
+
+  <div class="impact-item">
+    <h3>Growing</h3>
+    <p>Youth Network</p>
+  </div>
+
+  <div class="impact-item">
+    <h3>Community</h3>
+    <p>Activities</p>
+  </div>
+
+  <div class="impact-item">
+    <h3>Mentorship</h3>
+    <p>Sessions</p>
+  </div>
+
+  <div class="impact-item">
+    <h3>Active</h3>
+    <p>Community Outreach</p>
+  </div>
+
+</div>
 ## Operational Headquarters & Master Command Hub
 
 Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
