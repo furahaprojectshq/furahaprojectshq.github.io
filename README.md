@@ -12,7 +12,10 @@
 <div class="hero-image">
 <img src="/assets/images/hero2.png" alt="Furaha Projects Hero Image">
   </div>
-
+<div class="verse-card">
+  <p>“Each of you should use whatever gift you have received to serve others.”</p>
+  <span>1 Peter 4:10</span>
+</div>
 </div>
   <!-- =========================================
      IMPACT TRUST BAR
