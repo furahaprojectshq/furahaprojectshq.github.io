@@ -612,7 +612,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 .verse-card {
   position: absolute !important;
   right: 70px !important;
-  bottom: 45px !important;
+  bottom: 18px !important;
   z-index: 4 !important;
 
   max-width: 330px !important;
@@ -880,11 +880,12 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 .program-card {
 
   background: linear-gradient(
-145deg,
-#ffffff,
-#f8fafc
-) !important;
-   border-top: 5px solid #14b8a6 !important;
+    145deg,
+    #ffffff,
+    #f8fafc
+  ) !important;
+
+  border-top: 5px solid #14b8a6 !important;
 
   padding: 35px 28px !important;
 
@@ -901,22 +902,21 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 
 
-
 /* CARD HOVER EFFECT */
-
 .program-card:hover {
 
   transform: translateY(-8px) !important;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f0fdfa
+  ) !important;
 
   box-shadow:
     0 20px 35px rgba(0,0,0,0.08) !important;
 
   border-color: #cbd5e1 !important;
-   background: linear-gradient(
-145deg,
-#ffffff,
-#f0fdfa
-) !important;
 }
 
 
