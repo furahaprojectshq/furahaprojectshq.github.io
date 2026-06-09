@@ -544,14 +544,16 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   inset: 0 !important;
 
   background:
-    linear-gradient(
-      90deg,
-      rgba(2, 12, 18, 0.96) 0%,
-      rgba(2, 12, 18, 0.92) 22%,
-      rgba(2, 12, 18, 0.50) 46%,
-      rgba(2, 12, 18, 0.10) 72%,
-      rgba(2, 12, 18, 0.00) 100%
-    ),
+  linear-gradient(
+  90deg,
+  rgba(2, 12, 18, 1) 0%,
+  rgba(2, 12, 18, 0.98) 18%,
+  rgba(2, 12, 18, 0.88) 32%,
+  rgba(2, 12, 18, 0.62) 46%,
+  rgba(2, 12, 18, 0.28) 60%,
+  rgba(2, 12, 18, 0.08) 74%,
+  rgba(2, 12, 18, 0.00) 100%
+),
     linear-gradient(
       180deg,
       rgba(2, 12, 18, 0.45) 0%,
