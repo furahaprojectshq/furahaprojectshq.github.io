@@ -640,3 +640,110 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     font-size: 1rem !important;
   }
 }
+
+/* ==================================================
+   18. IMPACT TRUST BAR
+   --------------------------------------------------
+   PURPOSE:
+   Creates the horizontal statistics / trust section
+   under the hero.
+
+   DESIGN GOAL:
+   - Professional donor-style information bar
+   - Clean horizontal layout
+   - Balanced spacing
+   - Responsive on mobile
+================================================== */
+
+.impact-bar {
+
+  /* Places all items side-by-side */
+  display: flex !important;
+
+  /* Keeps spacing even */
+  justify-content: space-between !important;
+
+  /* Vertically aligns content */
+  align-items: center !important;
+
+  /* Allows wrapping on smaller screens */
+  flex-wrap: wrap !important;
+
+  gap: 24px !important;
+
+  /* Dark luxury background */
+  background-color: #0f172a !important;
+
+  padding: 35px 40px !important;
+
+  border-radius: 16px !important;
+
+  margin: 20px 0 60px 0 !important;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+}
+
+
+
+/* INDIVIDUAL IMPACT ITEM */
+
+.impact-item {
+
+  /* Makes all items evenly sized */
+  flex: 1 1 220px !important;
+
+  text-align: center !important;
+}
+
+
+
+/* MAIN WORD */
+
+.impact-item h3 {
+
+  font-size: 1.8rem !important;
+
+  font-weight: 800 !important;
+
+  color: #14b8a6 !important;
+
+  margin-bottom: 8px !important;
+
+  letter-spacing: 0.5px !important;
+}
+
+
+
+/* SUBTEXT */
+
+.impact-item p {
+
+  font-size: 1rem !important;
+
+  color: #cbd5e1 !important;
+
+  margin: 0 !important;
+
+  line-height: 1.5 !important;
+}
+
+
+
+/* ==================================================
+   MOBILE VERSION
+================================================== */
+
+@media (max-width: 768px) {
+
+  .impact-bar {
+
+    /* Stack vertically on phones */
+    flex-direction: column !important;
+
+    padding: 28px 20px !important;
+  }
+
+  .impact-item h3 {
+    font-size: 1.5rem !important;
+  }
+}
