@@ -595,8 +595,12 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   background-repeat: no-repeat !important;
 
   /* Slight brightness boost */
-  filter: brightness(1.38) contrast(1.12) saturate(1.08) !important;
-
+  filter:
+     brightness(1.28) 
+     contrast(1.18) 
+     saturate(1.12)
+image-rendering: auto !important;
+   image-rendering: auto !important;
   /* Places image BEHIND text */
   z-index: 1 !important;
 }
@@ -636,17 +640,22 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     rgba(6, 25, 35, 1) 0%,
 
     /* Still dark */
-    rgba(6, 25, 35, 0.95) 28%,
+    rgba(6, 25, 35, 0.92) 24%,
 
     /* Mid fade transition */
-    rgba(6, 25, 35, 0.32) 48%,
+    rgba(6, 25, 35, 0.45) 45%,
 
     /* Very light fade */
-    rgba(6, 25, 35, 0.10) 75%,
+    rgba(6, 25, 35, 0.08) 70%,
 
     /* Fully transparent on far right */
-    rgba(6, 25, 35, 0.00) 100%
-  ) !important;
+    rgba(6, 25, 35, 0.12) 100%
+  ), 
+     linear-gradient(
+180deg,
+rgba(6, 25, 35, 0.28) 0%,
+rgba(6, 25, 35, 0.00) 30%
+     !important;
 
   /* Places fade ABOVE image but BELOW text */
   z-index: 2 !important;
