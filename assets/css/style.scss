@@ -1205,3 +1205,220 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     font-size: 1.05rem !important;
   }
 }
+/* ==================================================
+   GLOBAL MOBILE CLEANUP
+================================================== */
+
+@media (max-width: 768px) {
+
+  /* ======================================
+     HEADER
+  ====================================== */
+
+  header,
+  .page-header,
+  .site-header {
+
+    height: 78px !important;
+
+    padding: 0 16px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: space-between !important;
+  }
+
+  .project-name {
+
+    font-size: 1.3rem !important;
+
+    letter-spacing: 1px !important;
+  }
+
+  .site-nav ul {
+
+    gap: 10px !important;
+  }
+
+  .site-nav a {
+
+    font-size: 0.72rem !important;
+
+    padding: 4px !important;
+  }
+
+
+  /* ======================================
+     MAIN CONTENT SPACING
+  ====================================== */
+
+  .main-content {
+
+    margin-top: 78px !important;
+
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    padding: 0 !important;
+  }
+
+
+  /* ======================================
+     HERO SECTION
+  ====================================== */
+
+  .hero-section {
+
+    min-height: auto !important;
+
+    padding: 70px 22px 55px 22px !important;
+
+    align-items: flex-start !important;
+  }
+
+  .hero-section::before {
+
+    width: 100% !important;
+
+    opacity: 0.45 !important;
+
+    background-position: center center !important;
+  }
+
+  .hero-text {
+
+    max-width: 100% !important;
+
+    padding-left: 0 !important;
+  }
+
+  .hero-text h1 {
+
+    font-size: 2.4rem !important;
+
+    line-height: 1.1 !important;
+
+    margin-bottom: 18px !important;
+  }
+
+  .hero-text p {
+
+    font-size: 1rem !important;
+
+    line-height: 1.7 !important;
+
+    max-width: 100% !important;
+  }
+
+  .hero-button {
+
+    padding: 12px 20px !important;
+
+    font-size: 0.9rem !important;
+  }
+
+
+  /* ======================================
+     VERSE CARD
+  ====================================== */
+
+  .verse-card {
+
+    position: relative !important;
+
+    right: auto !important;
+
+    bottom: auto !important;
+
+    margin-top: 30px !important;
+
+    max-width: 100% !important;
+
+    padding: 18px 18px !important;
+  }
+
+
+  /* ======================================
+     IMPACT BAR
+  ====================================== */
+
+  .impact-bar {
+
+    flex-direction: column !important;
+
+    gap: 18px !important;
+
+    padding: 30px 20px !important;
+  }
+
+
+  /* ======================================
+     PROGRAMS SECTION
+  ====================================== */
+
+  .programs-section {
+
+    padding: 70px 18px !important;
+  }
+
+  .section-heading {
+
+    font-size: 2.3rem !important;
+
+    line-height: 1.1 !important;
+  }
+
+  .section-subtext {
+
+    font-size: 1rem !important;
+
+    line-height: 1.7 !important;
+
+    margin-bottom: 45px !important;
+  }
+
+  .program-cards {
+
+    grid-template-columns: 1fr !important;
+
+    gap: 24px !important;
+  }
+
+  .program-card > img {
+
+    height: 210px !important;
+  }
+
+  .program-icon {
+
+    width: 56px !important;
+
+    height: 56px !important;
+
+    top: 182px !important;
+
+    left: 18px !important;
+
+    font-size: 1.4rem !important;
+  }
+
+  .program-content {
+
+    padding: 42px 20px 24px 20px !important;
+  }
+
+  .program-content h3 {
+
+    font-size: 1.3rem !important;
+  }
+
+  .program-content p {
+
+    font-size: 0.95rem !important;
+
+    line-height: 1.6 !important;
+  }
+}
