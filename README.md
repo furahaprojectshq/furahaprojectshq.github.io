@@ -45,7 +45,7 @@
 
 </div>
 <!-- =========================================
-     WHAT WE DO SECTION
+     WHAT WE DO SECTION/ Programs cards section 
 ========================================= -->
 
 <section class="what-we-do">
