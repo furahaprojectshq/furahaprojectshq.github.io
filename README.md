@@ -48,7 +48,7 @@
      WHAT WE DO SECTION/ Programs cards section 
 ========================================= -->
 
-<section class="what-we-do">
+<section class="programs-section">
 
   <p class="section-label">WHAT WE DO</p>
 
@@ -58,31 +58,96 @@
     Furaha Projects creates safe spaces where young people can discover,
     develop, and use their gifts with purpose.
   </p>
+<div class="program-cards">
 
-  <div class="program-grid">
-
+    <!-- Creative Arts -->
     <div class="program-card">
-      <h3>🎨 Creative Arts</h3>
-      <p>Unlocking creativity through drawing, painting, music, dance, and design.</p>
+
+      <img src="assets/images/CreativeArts.png" alt="Creative Arts">
+
+      <div class="program-icon purple-icon">
+        🎵
+      </div>
+
+      <div class="program-content">
+        <h3>Creative Arts</h3>
+
+        <p>
+          Nurturing creativity and self-expression through music,
+          art, performance and storytelling.
+        </p>
+
+        <a href="#">Learn More →</a>
+      </div>
     </div>
 
+    <!-- Sports -->
     <div class="program-card">
-      <h3>⚽ Sports & Athletics</h3>
-      <p>Building discipline, teamwork, confidence, and leadership through sports.</p>
+
+      <img src="assets/images/SportsandAthletics.png" alt="Sports and Athletics">
+
+      <div class="program-icon yellow-icon">
+        ⚽
+      </div>
+
+      <div class="program-content">
+        <h3>Sports & Athletics</h3>
+
+        <p>
+          Building teamwork, discipline and confidence through
+          sports and active youth engagement.
+        </p>
+
+        <a href="#">Learn More →</a>
+      </div>
     </div>
 
+    <!-- Mentorship -->
     <div class="program-card">
-      <h3>📚 Mentorship & Education</h3>
-      <p>Guiding young people toward academic growth, character, and future opportunities.</p>
+
+      <img src="assets/images/EducationandMentorship.jpeg" alt="Mentorship">
+
+      <div class="program-icon teal-icon">
+        🎓
+      </div>
+
+      <div class="program-content">
+        <h3>Mentorship & Education</h3>
+
+        <p>
+          Empowering young people through guidance, learning,
+          leadership and educational support.
+        </p>
+
+        <a href="#">Learn More →</a>
+      </div>
     </div>
 
+    <!-- Fashion -->
     <div class="program-card">
-      <h3>👗 Fashion & Design</h3>
-      <p>Helping young creatives explore style, design, entrepreneurship, and innovation.</p>
+
+      <img src="assets/images/Fashionand Design.jpg" alt="Fashion and Design">
+
+      <div class="program-icon pink-icon">
+        ✨
+      </div>
+
+      <div class="program-content">
+        <h3>Fashion & Design</h3>
+
+        <p>
+          Inspiring innovation and confidence through fashion,
+          design and creative expression.
+        </p>
+
+        <a href="#">Learn More →</a>
+      </div>
     </div>
 
   </div>
 
+</section>
+ 
 </section>
 ## Operational Headquarters & Master Command Hub
 
