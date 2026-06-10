@@ -975,3 +975,116 @@ gap: 10px !important;
     padding: 28px 22px !important;
   }
 }
+/* PROGRAM SECTION */
+
+.programs-section {
+  padding: 100px 60px;
+  background: #f7f8fa;
+}
+
+
+/* CARDS LAYOUT */
+
+.program-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+
+/* INDIVIDUAL CARD */
+
+.program-card {
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
+.program-card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* IMAGE SIZE FIX */
+
+.program-card img {
+  width: 100%;
+  height: 240px;   /* controls image height */
+  object-fit: cover;
+  display: block;
+}
+
+
+/* CARD CONTENT */
+
+.program-content {
+  padding: 70px 28px 30px;
+}
+
+
+.program-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #082032;
+}
+
+
+.program-content p {
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+
+/* LEARN MORE LINK */
+
+.program-content a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #7D5BA6;
+}
+
+
+/* ICON CIRCLE */
+
+.program-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+
+  position: absolute;
+  left: 28px;
+  top: 205px;
+
+  color: white;
+}
+
+
+/* DIFFERENT ICON COLORS */
+
+.purple-icon {
+  background: #7D5BA6;
+}
+
+.yellow-icon {
+  background: #F6B300;
+}
+
+.teal-icon {
+  background: #14B8A6;
+}
+
+.pink-icon {
+  background: #EC4899;
+}
