@@ -855,236 +855,128 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   color: #475569 !important;
 }
 
-
-
 /* ==================================================
-   PROGRAM GRID
+   19. PROGRAMS / WHAT WE DO SECTION
 ================================================== */
-
-.program-grid {
-
-  display: grid !important;
-
-  /* Creates responsive columns automatically */
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
-
-  gap: 28px !important;
-}
-
-
-
-/* ==================================================
-   INDIVIDUAL PROGRAM CARD
-================================================== */
-
-.program-card {
-
-  background: linear-gradient(
-    145deg,
-    #ffffff,
-    #f8fafc
-  ) !important;
-border: 1px solid #e2e8f0 !important;
-  border-top: 5px solid #14b8a6 !important;
-
-  padding: 35px 28px !important;
-
-  border-radius: 18px !important;
-
-  text-align: left !important;
-
-  transition: all 0.28s ease !important;
-
-  box-shadow:
-    0 4px 10px rgba(0,0,0,0.04) !important;
-}
-
-
-/* CARD HOVER EFFECT */
-.program-card:hover {
-
-  transform: translateY(-8px) !important;
-
-  background: linear-gradient(
-    145deg,
-    #ffffff,
-    #f0fdfa
-  ) !important;
-
-  box-shadow:
-    0 20px 35px rgba(0,0,0,0.08) !important;
-
-  border-color: #cbd5e1 !important;
-}
-
-
-
-/* PROGRAM TITLE */
-
-.program-card h3 {
-
-  font-size: 1.35rem !important;
-
-  font-weight: 800 !important;
-
-  color: #0f172a !important;
-
-  margin-bottom: 16px !important;
-   display: flex !important;
-
-align-items: center !important;
-
-gap: 10px !important;
-}
-
-
-
-/* PROGRAM DESCRIPTION */
-
-.program-card p {
-
-  font-size: 1rem !important;
-
-  line-height: 1.8 !important;
-
-  color: #475569 !important;
-
-  margin: 0 !important;
-}
-
-
-
-/* ==================================================
-   MOBILE ADJUSTMENTS
-================================================== */
-
-@media (max-width: 768px) {
-
-  .what-we-do h2 {
-
-    font-size: 2.2rem !important;
-  }
-
-  .section-intro {
-
-    font-size: 1rem !important;
-  }
-
-  .program-card {
-
-    padding: 28px 22px !important;
-  }
-}
-/* PROGRAM SECTION */
 
 .programs-section {
-  padding: 100px 60px;
-  background: #f7f8fa;
+  width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+
+  padding: 90px 60px !important;
+  background: linear-gradient(180deg, #f8fafc, #eef7f6) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
 }
-
-
-/* CARDS LAYOUT */
 
 .program-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin-top: 50px;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 28px !important;
+  margin-top: 50px !important;
 }
-
-
-/* INDIVIDUAL CARD */
 
 .program-card {
-  background: white;
-  border-radius: 22px;
-  overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-  transition: all 0.3s ease;
-  position: relative;
-}
+  background: #ffffff !important;
+  border-radius: 22px !important;
+  overflow: hidden !important;
+  position: relative !important;
 
+  border: 1px solid #dbe5e8 !important;
+  border-top: 6px solid #14b8a6 !important;
+
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
 
 .program-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px) !important;
+  box-shadow: 0 24px 45px rgba(15, 23, 42, 0.13) !important;
 }
-
-
-/* IMAGE SIZE FIX */
 
 .program-card img {
-  width: 100%;
-  height: 240px;   /* controls image height */
-  object-fit: cover;
-  display: block;
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  display: block !important;
 }
-
-
-/* CARD CONTENT */
-
-.program-content {
-  padding: 70px 28px 30px;
-}
-
-
-.program-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  color: #082032;
-}
-
-
-.program-content p {
-  color: #475569;
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
-
-/* LEARN MORE LINK */
-
-.program-content a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #7D5BA6;
-}
-
-
-/* ICON CIRCLE */
 
 .program-icon {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 50% !important;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  font-size: 1.8rem;
+  font-size: 1.6rem !important;
+  color: white !important;
 
-  position: absolute;
-  left: 28px;
-  top: 205px;
+  position: absolute !important;
+  left: 24px !important;
+  top: 188px !important;
 
-  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18) !important;
 }
 
+.program-content {
+  padding: 52px 26px 28px !important;
+  text-align: left !important;
+}
 
-/* DIFFERENT ICON COLORS */
+.program-content h3 {
+  font-size: 1.35rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 12px !important;
+  color: #0f172a !important;
+}
+
+.program-content p {
+  font-size: 0.98rem !important;
+  line-height: 1.65 !important;
+  color: #475569 !important;
+  margin-bottom: 18px !important;
+}
+
+.program-content a {
+  color: #7D5BA6 !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+}
 
 .purple-icon {
-  background: #7D5BA6;
+  background: #7D5BA6 !important;
 }
 
 .yellow-icon {
-  background: #F6B300;
+  background: #F6B300 !important;
 }
 
 .teal-icon {
-  background: #14B8A6;
+  background: #14B8A6 !important;
 }
 
 .pink-icon {
-  background: #EC4899;
+  background: #EC4899 !important;
 }
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .program-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .programs-section {
+    padding: 70px 22px !important;
+  }
+
+  .program-cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
