@@ -126,7 +126,7 @@
     <!-- Fashion -->
     <div class="program-card">
 
-      <img src="assets/images/Fashionand Design.jpg" alt="Fashion and Design">
+      <img src="assets/images/FashionandDesign.jpg" alt="Fashion and Design">
 
       <div class="program-icon pink-icon">
         ✨
