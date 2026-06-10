@@ -105,7 +105,7 @@
     <!-- Mentorship -->
     <div class="program-card">
 
-      <img src="assets/images/EducationandMentorship.jpeg" alt="Mentorship">
+      <img src="assets/images/EducationandMentosrship.jpeg" alt="Mentorship">
 
       <div class="program-icon teal-icon">
         🎓
@@ -126,7 +126,7 @@
     <!-- Fashion -->
     <div class="program-card">
 
-      <img src="assets/images/FashionandDesign.jpg" alt="Fashion and Design">
+      <img src="assets/images/Fasionand Design.jpg" alt="Fashion and Design">
 
       <div class="program-icon pink-icon">
         ✨
