@@ -854,129 +854,354 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   color: #475569 !important;
 }
-
 /* ==================================================
-   19. PROGRAMS / WHAT WE DO SECTION
+   19. WHAT WE DO / PROGRAMS SECTION
 ================================================== */
 
+
+/* =========================================
+   MAIN SECTION CONTAINER
+========================================= */
+
 .programs-section {
+
+  /* FULL SCREEN WIDTH */
   width: 100vw !important;
+
   margin-left: calc(50% - 50vw) !important;
   margin-right: calc(50% - 50vw) !important;
 
-  padding: 90px 60px !important;
-  background: linear-gradient(180deg, #f8fafc, #eef7f6) !important;
+  /* SPACING */
+  padding: 110px 60px !important;
+
+  /* DARK PREMIUM BACKGROUND */
+  background:
+  linear-gradient(
+    180deg,
+    #071923 0%,
+    #0f172a 100%
+  ) !important;
+
   text-align: center !important;
+
   box-sizing: border-box !important;
-}
 
-.program-cards {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  gap: 28px !important;
-  margin-top: 50px !important;
-}
-
-.program-card {
-  background: #ffffff !important;
-  border-radius: 22px !important;
-  overflow: hidden !important;
   position: relative !important;
 
-  border: 1px solid #dbe5e8 !important;
+  overflow: hidden !important;
+}
+
+
+
+/* =========================================
+   SMALL TOP LABEL
+========================================= */
+
+.section-label {
+
+  font-size: 1rem !important;
+
+  font-weight: 800 !important;
+
+  letter-spacing: 4px !important;
+
+  text-transform: uppercase !important;
+
+  color: #14b8a6 !important;
+
+  margin-bottom: 20px !important;
+}
+
+
+
+/* =========================================
+   MAIN HEADING
+========================================= */
+
+.section-heading {
+
+  font-size: 4.2rem !important;
+
+  font-weight: 900 !important;
+
+  line-height: 1.08 !important;
+
+  color: #ffffff !important;
+
+  margin-bottom: 30px !important;
+}
+
+
+
+/* =========================================
+   INTRO TEXT
+========================================= */
+
+.section-subtext {
+
+  max-width: 920px !important;
+
+  margin: 0 auto 80px auto !important;
+
+  font-size: 1.3rem !important;
+
+  line-height: 1.9 !important;
+
+  color: #cbd5e1 !important;
+}
+
+
+
+/* =========================================
+   CARDS GRID
+========================================= */
+
+.program-cards {
+
+  display: grid !important;
+
+  grid-template-columns: repeat(4, 1fr) !important;
+
+  gap: 30px !important;
+
+  align-items: stretch !important;
+}
+
+
+
+/* =========================================
+   INDIVIDUAL CARD
+========================================= */
+
+.program-card {
+
+  background: #ffffff !important;
+
+  border-radius: 24px !important;
+
+  overflow: hidden !important;
+
+  position: relative !important;
+
+  text-align: left !important;
+
   border-top: 6px solid #14b8a6 !important;
 
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08) !important;
-  transition: all 0.3s ease !important;
+  box-shadow:
+  0 18px 40px rgba(0,0,0,0.18) !important;
+
+  transition: all 0.35s ease !important;
 }
+
+
+
+/* HOVER EFFECT */
 
 .program-card:hover {
-  transform: translateY(-8px) !important;
-  box-shadow: 0 24px 45px rgba(15, 23, 42, 0.13) !important;
+
+  transform: translateY(-10px) !important;
+
+  box-shadow:
+  0 28px 55px rgba(0,0,0,0.28) !important;
 }
 
-.program-card img {
+
+
+/* =========================================
+   CARD IMAGES
+========================================= */
+
+.program-card > img {
+
   width: 100% !important;
-  height: 220px !important;
+
+  height: 270px !important;
+
   object-fit: cover !important;
+
   display: block !important;
 }
 
+
+
+/* =========================================
+   ICON CIRCLE
+========================================= */
+
 .program-icon {
-  width: 64px !important;
-  height: 64px !important;
+
+  width: 72px !important;
+
+  height: 72px !important;
+
   border-radius: 50% !important;
 
   display: flex !important;
+
   align-items: center !important;
+
   justify-content: center !important;
 
-  font-size: 1.6rem !important;
+  font-size: 1.8rem !important;
+
   color: white !important;
 
   position: absolute !important;
-  left: 24px !important;
-  top: 188px !important;
 
-  box-shadow: 0 10px 20px rgba(0,0,0,0.18) !important;
+  left: 24px !important;
+
+  top: 232px !important;
+
+  box-shadow:
+  0 12px 25px rgba(0,0,0,0.2) !important;
 }
+
+
+
+/* =========================================
+   CARD CONTENT AREA
+========================================= */
 
 .program-content {
-  padding: 52px 26px 28px !important;
-  text-align: left !important;
+
+  padding:
+  56px
+  28px
+  32px
+  28px !important;
 }
+
+
+
+/* CARD TITLES */
 
 .program-content h3 {
-  font-size: 1.35rem !important;
+
+  font-size: 1.55rem !important;
+
   line-height: 1.25 !important;
-  margin-bottom: 12px !important;
+
+  margin-bottom: 16px !important;
+
   color: #0f172a !important;
+
+  font-weight: 800 !important;
 }
+
+
+
+/* CARD PARAGRAPHS */
 
 .program-content p {
-  font-size: 0.98rem !important;
-  line-height: 1.65 !important;
+
+  font-size: 1rem !important;
+
+  line-height: 1.8 !important;
+
   color: #475569 !important;
-  margin-bottom: 18px !important;
+
+  margin-bottom: 24px !important;
 }
+
+
+
+/* LEARN MORE LINKS */
 
 .program-content a {
-  color: #7D5BA6 !important;
-  font-weight: 800 !important;
+
   text-decoration: none !important;
+
+  font-weight: 800 !important;
+
+  color: #7D5BA6 !important;
+
+  transition: 0.3s ease !important;
 }
 
+
+
+.program-content a:hover {
+
+  color: #14b8a6 !important;
+}
+
+
+
+/* =========================================
+   ICON COLORS
+========================================= */
+
 .purple-icon {
+
   background: #7D5BA6 !important;
 }
 
+
+
 .yellow-icon {
+
   background: #F6B300 !important;
 }
 
+
+
 .teal-icon {
+
   background: #14B8A6 !important;
 }
 
+
+
 .pink-icon {
+
   background: #EC4899 !important;
 }
 
-/* MOBILE */
-@media (max-width: 900px) {
+
+
+/* =========================================
+   TABLET RESPONSIVE
+========================================= */
+
+@media (max-width: 1000px) {
+
   .program-cards {
-    grid-template-columns: repeat(2, 1fr) !important;
+
+    grid-template-columns:
+    repeat(2, 1fr) !important;
+  }
+
+  .section-heading {
+
+    font-size: 3rem !important;
   }
 }
 
-@media (max-width: 600px) {
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 650px) {
+
   .programs-section {
-    padding: 70px 22px !important;
+
+    padding: 80px 24px !important;
   }
 
   .program-cards {
+
     grid-template-columns: 1fr !important;
   }
+
+  .section-heading {
+
+    font-size: 2.4rem !important;
+  }
+
+  .section-subtext {
+
+    font-size: 1.05rem !important;
+  }
 }
-
-
