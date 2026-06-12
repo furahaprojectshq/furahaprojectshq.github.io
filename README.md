@@ -51,7 +51,18 @@
 </div>
 
 ---
- ## 🌍 OUR PROJECTS
+<section class="projects-section">
+
+  <p class="projects-label">OUR PROJECTS</p>
+
+  <h2 class="projects-heading">
+    Three Projects. One Vision.
+  </h2>
+
+  <p class="projects-intro">
+    Furaha Projects brings together talent development, community empowerment,
+    and data-driven impact to create opportunity and build stronger communities.
+  </p>
 
 <div class="card-grid">
 
@@ -87,7 +98,7 @@
 
 </div>
 
-
+</section>
   
 
 
