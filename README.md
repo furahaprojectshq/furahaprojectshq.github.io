@@ -65,8 +65,7 @@
   </p>
 
 <div class="card-grid">
-
-  <div class="branch-card">
+<div class="branch-card talents-card">
     <h3>🎨 FURAHA TALENTS</h3>
     <p>
       Discovering potential through sports, arts, mentorship,
@@ -76,7 +75,7 @@
     <a href="talents" class="branch-button">Learn More →</a>
   </div>
 
-  <div class="branch-card">
+  <div class="branch-card foundation-card">
     <h3>🤝 FURAHA FOUNDATION</h3>
     <p>
       Creating opportunity through economic empowerment,
@@ -85,8 +84,7 @@
     </p>
     <a href="foundation" class="branch-button">Learn More →</a>
   </div>
-
-  <div class="branch-card">
+<div class="branch-card analytics-card">
     <h3>📊 FURAHA ANALYTICS</h3>
     <p>
       Measuring impact through data, research, and community
