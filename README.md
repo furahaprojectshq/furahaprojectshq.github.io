@@ -101,6 +101,54 @@
 
 </section>
   
+<section class="purpose-section">
+
+  <p class="purpose-label">OUR PURPOSE</p>
+
+  <h2 class="purpose-heading">
+    Potential is everywhere.<br>
+    Opportunity is not.
+  </h2>
+
+<img
+src="/assets/images/furaha-purpose.jpg.jpeg"
+alt="Furaha community gathering"
+class="purpose-image"
+
+>
+
+  <div class="purpose-content">
+
+```
+<p>
+  We believe talent, creativity, leadership, and potential exist in every community.
+  Yet many young people and families never receive the opportunities, resources,
+  or support needed to fully develop those gifts.
+</p>
+
+<p>
+  Furaha Projects exists to bridge that gap. Through talent development,
+  community empowerment, and data-driven impact, we help individuals
+  discover their strengths, access meaningful opportunities, and contribute
+  to stronger communities.
+</p>
+
+<div class="purpose-verse">
+
+  <p>
+    "Each of you should use whatever gift you have received
+    to serve others, as faithful stewards of God's grace
+    in its various forms."
+  </p>
+
+  <span>1 Peter 4:10</span>
+
+</div>
+```
+
+  </div>
+
+</section>
 
 
 
