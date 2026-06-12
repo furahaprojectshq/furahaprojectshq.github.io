@@ -73,6 +73,7 @@
       young people identify and develop their gifts with purpose.
     </p>
     <a href="talents" class="branch-button">Learn More →</a>
+  <span class="project-status active-status">Active Project</span>
   </div>
 
   <div class="branch-card foundation-card">
@@ -83,6 +84,7 @@
       and support for families and single parents.
     </p>
     <a href="foundation" class="branch-button">Learn More →</a>
+    <span class="project-status building-status">Building</span>
   </div>
 <div class="branch-card analytics-card">
     <h3>📊 FURAHA ANALYTICS</h3>
@@ -92,6 +94,7 @@
       evaluate outcomes, and make better decisions.
     </p>
     <a href="analytics" class="branch-button">Learn More →</a>
+  <span class="project-status developing-status">Developing</span>
   </div>
 
 </div>
