@@ -412,20 +412,20 @@ header, .page-header, .site-header {
     padding: 60px 0 70px 0 !important;
   }
 }
-
 /* Project-specific accent colors */
 
-.talents-card::before {
+.main-content .branch-card.talents-card::before {
   background: #14b8a6 !important;
 }
 
-.foundation-card::before {
+.main-content .branch-card.foundation-card::before {
   background: #f6b300 !important;
 }
 
-.analytics-card::before {
+.main-content .branch-card.analytics-card::before {
   background: #7d5ba6 !important;
 }
+
 /* ==================================================
    9. COMMUNITY IMAGE GALLERY
 
