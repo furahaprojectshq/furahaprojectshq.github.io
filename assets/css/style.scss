@@ -167,42 +167,250 @@ header, .page-header, .site-header {
   padding: 2rem 1.5rem !important; 
   box-sizing: border-box !important;
 }
-
-
 /* ==================================================
-   8. BRANCH CARD GRID
-
-   Purpose:
-   Creates the 3-card layout for Talents, Foundation,
-   and Analytics.
+   8. OUR PROJECTS SECTION
+   --------------------------------------------------
+   PURPOSE:
+   Styles the homepage section that introduces
+   Furaha Talents, Furaha Foundation, and
+   Furaha Analytics.
 ================================================== */
 
+
+/* =========================================
+   PROJECTS SECTION WRAPPER
+========================================= */
+
+.projects-section {
+
+  text-align: center !important;
+
+  padding: 70px 0 90px 0 !important;
+}
+
+
+
+/* =========================================
+   SMALL TEAL LABEL
+========================================= */
+
+.projects-label {
+
+  font-size: 0.95rem !important;
+
+  font-weight: 800 !important;
+
+  letter-spacing: 3px !important;
+
+  text-transform: uppercase !important;
+
+  color: #14b8a6 !important;
+
+  margin-bottom: 12px !important;
+}
+
+
+
+/* =========================================
+   MAIN HEADING
+========================================= */
+
+.projects-heading {
+
+  font-size: 3.4rem !important;
+
+  font-weight: 900 !important;
+
+  line-height: 1.1 !important;
+
+  color: #0f172a !important;
+
+  margin-bottom: 20px !important;
+}
+
+
+
+/* =========================================
+   INTRO TEXT
+========================================= */
+
+.projects-intro {
+
+  max-width: 850px !important;
+
+  margin: 0 auto 55px auto !important;
+
+  font-size: 1.08rem !important;
+
+  line-height: 1.8 !important;
+
+  color: #475569 !important;
+}
+
+
+
+/* =========================================
+   CARD GRID
+========================================= */
+
 .main-content .card-grid {
-  display: flex !important;
-  flex-direction: row !important;  
-  flex-wrap: wrap !important;     
-  gap: 24px !important;            
-  margin-top: 40px !important;
+
+  display: grid !important;
+
+  grid-template-columns: repeat(3, 1fr) !important;
+
+  gap: 30px !important;
+
+  margin-top: 0 !important;
+
   width: 100% !important;
 }
 
+
+
+/* =========================================
+   PROJECT CARD
+========================================= */
+
 .main-content .branch-card {
-  background-color: #ffffff !important;
-  padding: 28px !important;
-  border-radius: 12px !important;   
+
+  background: #ffffff !important;
+
+  padding: 34px !important;
+
+  border-radius: 22px !important;
+
   border: 1px solid #e2e8f0 !important;
-  flex: 1 1 calc(33.33% - 24px) !important;     
-  max-width: calc(33.33% - 16px) !important;    
-  min-width: 200px !important;               
-  box-sizing: border-box !important;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.04), 0 2px 4px -2px rgba(0,0,0,0.04) !important; 
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important; 
+
+  box-shadow:
+  0 14px 30px rgba(15,23,42,0.08) !important;
+
+  transition: all 0.3s ease !important;
+
+  text-align: left !important;
+
+  overflow: hidden !important;
+
+  position: relative !important;
 }
 
+
+
+/* =========================================
+   CARD TOP ACCENT
+========================================= */
+
+.main-content .branch-card::before {
+
+  content: "" !important;
+
+  position: absolute !important;
+
+  top: 0 !important;
+
+  left: 0 !important;
+
+  width: 100% !important;
+
+  height: 6px !important;
+
+  background: #14b8a6 !important;
+}
+
+
+
+/* =========================================
+   HOVER EFFECT
+========================================= */
+
 .main-content .branch-card:hover {
-  transform: translateY(-5px) !important;   
-  border-color: #cbd5e1 !important;        
-  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.08) !important;
+
+  transform: translateY(-8px) !important;
+
+  box-shadow:
+  0 24px 45px rgba(15,23,42,0.14) !important;
+}
+
+
+
+/* =========================================
+   CARD TITLE
+========================================= */
+
+.main-content .branch-card h3 {
+
+  font-size: 1.35rem !important;
+
+  font-weight: 800 !important;
+
+  color: #0f172a !important;
+
+  margin-bottom: 18px !important;
+}
+
+
+
+/* =========================================
+   CARD DESCRIPTION
+========================================= */
+
+.main-content .branch-card p {
+
+  font-size: 1rem !important;
+
+  line-height: 1.75 !important;
+
+  color: #475569 !important;
+
+  margin-bottom: 24px !important;
+}
+
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.branch-button {
+
+  color: #14b8a6 !important;
+
+  font-weight: 800 !important;
+
+  text-decoration: none !important;
+
+  transition: 0.3s ease !important;
+}
+
+
+
+.branch-button:hover {
+
+  color: #7D5BA6 !important;
+}
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .main-content .card-grid {
+
+    grid-template-columns: 1fr !important;
+  }
+
+  .projects-heading {
+
+    font-size: 2.4rem !important;
+  }
+
+  .projects-section {
+
+    padding: 60px 0 70px 0 !important;
+  }
 }
 
 
