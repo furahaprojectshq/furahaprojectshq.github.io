@@ -690,48 +690,77 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
    - Floating card effect
    - Strong transition into next section
 ================================================== */
+/* ==================================================
+   IMPACT BAR - FULL WIDTH / THINNER
+================================================== */
 
 .impact-bar {
-
-  /* Layout */
   display: flex !important;
-  justify-content: space-between !important;
+  justify-content: center !important;
   align-items: center !important;
   flex-wrap: wrap !important;
 
-  gap: 20px !important;
+  gap: 0 !important;
 
+  width: 100vw !important;
+  max-width: none !important;
 
-  /* Appearance */
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+  padding: 20px 40px !important;
+
   background-color: #0f172a !important;
-  border-radius: 16px !important;
+  border-radius: 0 !important;
 
-
-  /* Makes bar shorter vertically */
-  padding: 24px 36px !important;
-
-
-  /* Width control */
-  width: 86% !important;
-  max-width: 1150px !important;
-
-
-  /* Pulls impact bar upward so it slightly
-     overlaps the hero section */
-  margin: -35px auto 60px auto !important;
-
-
-  /* Makes sure bar sits above sections */
   position: relative !important;
   z-index: 5 !important;
 
-
-  /* Floating shadow effect */
-  box-shadow:
-  0 16px 35px rgba(0,0,0,0.18) !important;
+  box-shadow: none !important;
 }
 
+/* Each word block */
+.impact-item {
+  flex: 1 1 25% !important;
+  text-align: center !important;
+  padding: 8px 12px !important;
+}
 
+/* Main action word */
+.impact-item h3 {
+  font-size: 1.35rem !important;
+  margin-bottom: 6px !important;
+  color: #14b8a6 !important;
+}
+
+/* Smaller explanation text */
+.impact-item p {
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+  color: #cbd5e1 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .impact-bar {
+    padding: 16px 12px !important;
+  }
+
+  .impact-item {
+    flex: 1 1 50% !important;
+  }
+
+  .impact-item h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .impact-item p {
+    font-size: 0.78rem !important;
+  }
+}
 /* ==================================================
    MOBILE VERSION
 ================================================== */
