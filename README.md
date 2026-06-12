@@ -1,9 +1,14 @@
 <div class="hero-section">
   <div class="hero-text">
     
-<h1>Discovering Talent.<br>Creating Futures.</h1>
+<h1>
+  Discovering Potential.<br>
+  Creating Opportunity.<br>
+  Building Community.
+</h1>
 <p>
-  Furaha Projects identifies hidden potential, nurtures creaivity, and creates opportunities for young people through mentorship, sports, arts, and community development.
+  Furaha Projects is a community-centered initiative helping people discover their gifts,
+  access meaningful opportunities, and contribute to stronger communities.
 </p>
 <a href="talents" class="hero-button">
   Explore Our Work →
