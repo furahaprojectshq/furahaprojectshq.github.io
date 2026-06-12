@@ -425,7 +425,16 @@ header, .page-header, .site-header {
 .main-content .branch-card.analytics-card::before {
   background: #7d5ba6 !important;
 }
+.main-content .branch-card h3 {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  font-size: 1.35rem !important;
+}
 
+.main-content .branch-card h3::first-letter {
+  font-size: 2rem !important;
+}
 /* ==================================================
    9. COMMUNITY IMAGE GALLERY
 
