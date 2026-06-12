@@ -413,7 +413,19 @@ header, .page-header, .site-header {
   }
 }
 
+/* Project-specific accent colors */
 
+.talents-card::before {
+  background: #14b8a6 !important;
+}
+
+.foundation-card::before {
+  background: #f6b300 !important;
+}
+
+.analytics-card::before {
+  background: #7d5ba6 !important;
+}
 /* ==================================================
    9. COMMUNITY IMAGE GALLERY
 
