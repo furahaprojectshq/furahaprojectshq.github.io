@@ -1646,3 +1646,225 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     line-height: 1.6 !important;
   }
 }
+/* ==================================================
+   20. OUR PURPOSE SECTION
+   --------------------------------------------------
+   PURPOSE:
+   Explains WHY Furaha Projects exists.
+
+   DESIGN GOAL:
+   - Warm and hopeful
+   - Community-centered
+   - Let the photo tell the story
+   - Create an emotional connection
+================================================== */
+
+
+/* =========================================
+   SECTION WRAPPER
+========================================= */
+
+.purpose-section {
+
+  /* Full-width section */
+  width: 100vw !important;
+
+  margin-left: calc(50% - 50vw) !important;
+
+  margin-right: calc(50% - 50vw) !important;
+
+  /* Soft butter-yellow background */
+  background: #FFF9E8 !important;
+
+  /* Section spacing */
+  padding: 90px 70px !important;
+
+  text-align: center !important;
+
+  box-sizing: border-box !important;
+}
+
+
+
+/* =========================================
+   SMALL SECTION LABEL
+========================================= */
+
+.purpose-label {
+
+  font-size: 0.95rem !important;
+
+  font-weight: 800 !important;
+
+  letter-spacing: 3px !important;
+
+  text-transform: uppercase !important;
+
+  color: #14B8A6 !important;
+
+  margin-bottom: 18px !important;
+}
+
+
+
+/* =========================================
+   MAIN HEADING
+========================================= */
+
+.purpose-heading {
+
+  font-size: 3.6rem !important;
+
+  font-weight: 900 !important;
+
+  line-height: 1.1 !important;
+
+  color: #0F172A !important;
+
+  margin-bottom: 50px !important;
+}
+
+
+
+/* =========================================
+   PURPOSE IMAGE
+========================================= */
+
+.purpose-image {
+
+  width: 100% !important;
+
+  max-width: 1150px !important;
+
+  height: 500px !important;
+
+  object-fit: cover !important;
+
+  border-radius: 24px !important;
+
+  display: block !important;
+
+  margin: 0 auto 55px auto !important;
+
+  /* Soft shadow */
+  box-shadow:
+  0 20px 45px rgba(15,23,42,0.15) !important;
+}
+
+
+
+/* =========================================
+   TEXT CONTAINER
+========================================= */
+
+.purpose-content {
+
+  max-width: 900px !important;
+
+  margin: 0 auto !important;
+}
+
+
+
+/* =========================================
+   PARAGRAPHS
+========================================= */
+
+.purpose-content p {
+
+  font-size: 1.1rem !important;
+
+  line-height: 1.9 !important;
+
+  color: #475569 !important;
+
+  margin-bottom: 24px !important;
+}
+
+
+
+/* =========================================
+   BIBLE VERSE CARD
+========================================= */
+
+.purpose-verse {
+
+  max-width: 750px !important;
+
+  margin: 55px auto 0 auto !important;
+
+  padding: 30px 35px !important;
+
+  background: #ffffff !important;
+
+  border-left: 6px solid #F6B300 !important;
+
+  border-radius: 18px !important;
+
+  box-shadow:
+  0 12px 30px rgba(15,23,42,0.08) !important;
+}
+
+
+
+/* Verse text */
+
+.purpose-verse p {
+
+  font-size: 1.12rem !important;
+
+  line-height: 1.8 !important;
+
+  color: #0F172A !important;
+
+  font-style: italic !important;
+
+  margin-bottom: 12px !important;
+}
+
+
+
+/* Bible reference */
+
+.purpose-verse span {
+
+  color: #F6B300 !important;
+
+  font-weight: 900 !important;
+
+  font-size: 1rem !important;
+}
+
+
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+========================================= */
+
+@media (max-width: 768px) {
+
+  .purpose-section {
+
+    padding: 70px 22px !important;
+  }
+
+  .purpose-heading {
+
+    font-size: 2.4rem !important;
+  }
+
+  .purpose-image {
+
+    height: 300px !important;
+  }
+
+  .purpose-content p {
+
+    font-size: 1rem !important;
+  }
+
+  .purpose-verse {
+
+    padding: 24px !important;
+  }
+}
