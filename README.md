@@ -49,6 +49,49 @@
   </div>
 
 </div>
+
+---
+ ## 🌍 OUR PROJECTS
+
+<div class="card-grid">
+
+  <div class="branch-card">
+    <h3>🎨 FURAHA TALENTS</h3>
+    <p>
+      Discovering potential through sports, arts, mentorship,
+      education, and creative expression. Furaha Talents helps
+      young people identify and develop their gifts with purpose.
+    </p>
+    <a href="talents" class="branch-button">Learn More →</a>
+  </div>
+
+  <div class="branch-card">
+    <h3>🤝 FURAHA FOUNDATION</h3>
+    <p>
+      Creating opportunity through economic empowerment,
+      female health education, community partnerships,
+      and support for families and single parents.
+    </p>
+    <a href="foundation" class="branch-button">Learn More →</a>
+  </div>
+
+  <div class="branch-card">
+    <h3>📊 FURAHA ANALYTICS</h3>
+    <p>
+      Measuring impact through data, research, and community
+      insights. Furaha Analytics helps us understand needs,
+      evaluate outcomes, and make better decisions.
+    </p>
+    <a href="analytics" class="branch-button">Learn More →</a>
+  </div>
+
+</div>
+
+
+  
+
+
+
 <!-- =========================================
      WHAT WE DO SECTION/ Programs cards section 
 ========================================= -->
@@ -189,42 +232,7 @@ Furaha Projects HQ operates as the centralized command hub powering a diverse ne
 * **📚 Education Support:** Bridging resources and local literacy gaps for everyone in the community.
 * **📊 Data Transparency:** Applying statistical mapping and predictive growth metrics to track and display our direct local network impact.
 
----
- ## 🌍 OUR PROJECTS
 
-<div class="card-grid">
-
-  <div class="branch-card">
-    <h3>🎨 FURAHA TALENTS</h3>
-    <p>
-      Discovering potential through sports, arts, mentorship,
-      education, and creative expression. Furaha Talents helps
-      young people identify and develop their gifts with purpose.
-    </p>
-    <a href="talents" class="branch-button">Learn More →</a>
-  </div>
-
-  <div class="branch-card">
-    <h3>🤝 FURAHA FOUNDATION</h3>
-    <p>
-      Creating opportunity through economic empowerment,
-      female health education, community partnerships,
-      and support for families and single parents.
-    </p>
-    <a href="foundation" class="branch-button">Learn More →</a>
-  </div>
-
-  <div class="branch-card">
-    <h3>📊 FURAHA ANALYTICS</h3>
-    <p>
-      Measuring impact through data, research, and community
-      insights. Furaha Analytics helps us understand needs,
-      evaluate outcomes, and make better decisions.
-    </p>
-    <a href="analytics" class="branch-button">Learn More →</a>
-  </div>
-
-</div>
 
 
   
