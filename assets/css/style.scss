@@ -682,88 +682,54 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
    18. IMPACT TRUST BAR
    --------------------------------------------------
    PURPOSE:
-   Creates the horizontal statistics / trust section
-   under the hero.
+   Shows key focus areas of Furaha Projects.
 
    DESIGN GOAL:
-   - Professional donor-style information bar
-   - Clean horizontal layout
-   - Balanced spacing
-   - Responsive on mobile
+   - Visually connected to hero section
+   - Compact and modern
+   - Floating card effect
+   - Strong transition into next section
 ================================================== */
 
 .impact-bar {
 
-  /* Places all items side-by-side */
+  /* Layout */
   display: flex !important;
-
-  /* Keeps spacing even */
   justify-content: space-between !important;
-
-  /* Vertically aligns content */
   align-items: center !important;
-
-  /* Allows wrapping on smaller screens */
   flex-wrap: wrap !important;
 
-  gap: 24px !important;
+  gap: 20px !important;
 
-  /* Dark luxury background */
+
+  /* Appearance */
   background-color: #0f172a !important;
-
-  padding: 35px 40px !important;
-
   border-radius: 16px !important;
 
-  margin: 20px 0 60px 0 !important;
 
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+  /* Makes bar shorter vertically */
+  padding: 24px 36px !important;
+
+
+  /* Width control */
+  width: 86% !important;
+  max-width: 1150px !important;
+
+
+  /* Pulls impact bar upward so it slightly
+     overlaps the hero section */
+  margin: -35px auto 60px auto !important;
+
+
+  /* Makes sure bar sits above sections */
+  position: relative !important;
+  z-index: 5 !important;
+
+
+  /* Floating shadow effect */
+  box-shadow:
+  0 16px 35px rgba(0,0,0,0.18) !important;
 }
-
-
-
-/* INDIVIDUAL IMPACT ITEM */
-
-.impact-item {
-
-  /* Makes all items evenly sized */
-  flex: 1 1 220px !important;
-
-  text-align: center !important;
-}
-
-
-
-/* MAIN WORD */
-
-.impact-item h3 {
-
-  font-size: 1.8rem !important;
-
-  font-weight: 800 !important;
-
-  color: #14b8a6 !important;
-
-  margin-bottom: 8px !important;
-
-  letter-spacing: 0.5px !important;
-}
-
-
-
-/* SUBTEXT */
-
-.impact-item p {
-
-  font-size: 1rem !important;
-
-  color: #cbd5e1 !important;
-
-  margin: 0 !important;
-
-  line-height: 1.5 !important;
-}
-
 
 
 /* ==================================================
