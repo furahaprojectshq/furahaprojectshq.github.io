@@ -158,7 +158,7 @@ class="purpose-image"
 
 <section class="programs-section">
 
-  <p class="section-label">FURAHA TALENTS <br>
+  <p class="section-label">FURAHA TALENTS
 In Action <br>
     Real stories. Real growth. Real impact.</p>
 
