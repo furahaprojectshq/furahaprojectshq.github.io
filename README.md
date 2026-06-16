@@ -158,14 +158,15 @@ class="purpose-image"
 
 <section class="programs-section">
 
-  <p class="section-label">FURAHA TALENTS
-In Action <br>
-    Real stories. Real growth. Real impact.</p>
+  <p class="section-label">FURAHA TALENTS IN ACTION</p>
 
+  <h2 class="section-heading">
+    Real stories. Real growth. Real impact.
+  </h2>
 
-  <p class="section-intro">
-    Furaha Projects creates safe spaces where young people can discover,
-    develop, and use their gifts with purpose.
+  <p class="section-subtext">
+    Through creative arts, sports, mentorship, education, and design,
+    Furaha Talents creates spaces where young people can discover and develop their gifts.
   </p>
 <div class="program-cards">
 
