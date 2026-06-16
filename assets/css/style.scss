@@ -1109,12 +1109,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   /* Deep navy gradient background */
   background:
+    radial-gradient(circle at top left, rgba(20,184,166,0.18), transparent 35%),
     linear-gradient(
       180deg,
-      #071923 0%,
-      #0F2532 100%
+      #061923 0%,
+      #102f3d 100%
     ) !important;
-
+}
   text-align: center !important;
   box-sizing: border-box !important;
   position: relative !important;
@@ -1128,39 +1129,28 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
 .programs-section .section-label {
   font-size: 0.95rem !important;
-  font-weight: 800 !important;
   letter-spacing: 4px !important;
-  text-transform: uppercase !important;
   color: #14B8A6 !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 18px !important;
 }
-
 
 /* =========================================
    MAIN HEADING
 ========================================= */
-
 .programs-section .section-heading {
-  font-size: 3.4rem !important;
-  font-weight: 900 !important;
-  line-height: 1.1 !important;
+  font-size: 3.5rem !important;
   color: #ffffff !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 22px !important;
 }
-
 
 /* =========================================
    INTRO TEXT UNDER HEADING
 ========================================= */
 
 .programs-section .section-subtext {
-  max-width: 780px !important;
-  margin: 0 auto 55px auto !important;
-  font-size: 1.1rem !important;
-  line-height: 1.8 !important;
-  color: #cbd5e1 !important;
+  color: #dbeafe !important;
+  opacity: 0.9 !important;
 }
-
 
 /* =========================================
    CARD GRID
