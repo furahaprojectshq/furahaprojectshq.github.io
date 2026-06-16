@@ -1079,7 +1079,17 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   color: #475569 !important;
 }
 /* ==================================================
-   19. WHAT WE DO / PROGRAMS SECTION
+   19. FURAHA TALENTS IN ACTION
+   --------------------------------------------------
+   PURPOSE:
+   Shows the active Furaha Talents programs using
+   real photos and simple visual cards.
+
+   DESIGN GOAL:
+   - Make the section feel energetic and real
+   - Let the photos carry the story
+   - Keep the cards clean and not too childish
+   - Use Furaha colors: navy, teal, gold, purple
 ================================================== */
 
 
@@ -1089,95 +1099,81 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
 .programs-section {
 
-  /* FULL SCREEN WIDTH */
+  /* Makes the section stretch across the full screen */
   width: 100vw !important;
-
   margin-left: calc(50% - 50vw) !important;
   margin-right: calc(50% - 50vw) !important;
 
-  /* SPACING */
-  padding: 110px 60px !important;
+  /* Section spacing */
+  padding: 95px 55px !important;
 
-  /* DARK PREMIUM BACKGROUND */
+  /* Deep navy background that matches Furaha branding */
   background:
-  linear-gradient(
-    180deg,
-    #071923 0%,
-    #0f172a 100%
-  ) !important;
+    linear-gradient(
+      180deg,
+      #071923 0%,
+      #0F2532 100%
+    ) !important;
 
   text-align: center !important;
-
   box-sizing: border-box !important;
-
   position: relative !important;
-
   overflow: hidden !important;
 }
-
 
 
 /* =========================================
    SMALL TOP LABEL
 ========================================= */
 
-.section-label {
+.programs-section .section-label {
 
-  font-size: 1rem !important;
-
+  font-size: 0.95rem !important;
   font-weight: 800 !important;
-
   letter-spacing: 4px !important;
-
   text-transform: uppercase !important;
 
-  color: #14b8a6 !important;
+  color: #14B8A6 !important;
 
-  margin-bottom: 20px !important;
+  margin-bottom: 16px !important;
 }
-
 
 
 /* =========================================
    MAIN HEADING
 ========================================= */
 
-.section-heading {
+.programs-section .section-heading {
 
-  font-size: 4.2rem !important;
-
+  font-size: 3.4rem !important;
   font-weight: 900 !important;
-
-  line-height: 1.08 !important;
+  line-height: 1.1 !important;
 
   color: #ffffff !important;
 
-  margin-bottom: 30px !important;
+  margin-bottom: 20px !important;
 }
 
 
-
 /* =========================================
-   INTRO TEXT
+   INTRO TEXT UNDER HEADING
 ========================================= */
 
-.section-subtext {
+.programs-section .section-subtext {
 
-  max-width: 920px !important;
+  max-width: 780px !important;
 
-  margin: 0 auto 80px auto !important;
+  margin: 0 auto 55px auto !important;
 
-  font-size: 1.3rem !important;
-
-  line-height: 1.9 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.8 !important;
 
   color: #cbd5e1 !important;
 }
 
 
-
 /* =========================================
-   CARDS GRID
+   CARD GRID
 ========================================= */
 
 .program-cards {
@@ -1186,11 +1182,14 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   grid-template-columns: repeat(4, 1fr) !important;
 
-  gap: 30px !important;
+  gap: 26px !important;
 
   align-items: stretch !important;
-}
 
+  max-width: 1280px !important;
+
+  margin: 0 auto !important;
+}
 
 
 /* =========================================
@@ -1201,7 +1200,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   background: #ffffff !important;
 
-  border-radius: 24px !important;
+  border-radius: 22px !important;
 
   overflow: hidden !important;
 
@@ -1209,37 +1208,35 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   text-align: left !important;
 
-  border-top: 6px solid #14b8a6 !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
 
   box-shadow:
-  0 18px 40px rgba(0,0,0,0.18) !important;
+    0 18px 40px rgba(0, 0, 0, 0.20) !important;
 
-  transition: all 0.35s ease !important;
+  transition: all 0.3s ease !important;
 }
 
 
-
-/* HOVER EFFECT */
+/* Hover effect makes the cards feel interactive */
 
 .program-card:hover {
 
-  transform: translateY(-10px) !important;
+  transform: translateY(-8px) !important;
 
   box-shadow:
-  0 28px 55px rgba(0,0,0,0.28) !important;
+    0 26px 55px rgba(0, 0, 0, 0.30) !important;
 }
 
 
-
 /* =========================================
-   CARD IMAGES
+   CARD IMAGE
 ========================================= */
 
 .program-card > img {
 
   width: 100% !important;
 
-  height: 270px !important;
+  height: 245px !important;
 
   object-fit: cover !important;
 
@@ -1247,39 +1244,36 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 
 
-
 /* =========================================
    ICON CIRCLE
+   --------------------------------------------------
+   These circles make the emojis feel more designed.
+   Later, you can replace emojis with custom line icons.
 ========================================= */
 
 .program-icon {
 
-  width: 72px !important;
-
-  height: 72px !important;
+  width: 58px !important;
+  height: 58px !important;
 
   border-radius: 50% !important;
 
   display: flex !important;
-
   align-items: center !important;
-
   justify-content: center !important;
 
-  font-size: 1.8rem !important;
-
+  font-size: 1.35rem !important;
   color: white !important;
 
   position: absolute !important;
 
-  left: 24px !important;
+  left: 22px !important;
 
-  top: 232px !important;
+  top: 216px !important;
 
   box-shadow:
-  0 12px 25px rgba(0,0,0,0.2) !important;
+    0 10px 22px rgba(0, 0, 0, 0.22) !important;
 }
-
 
 
 /* =========================================
@@ -1288,48 +1282,39 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
 .program-content {
 
-  padding:
-  56px
-  28px
-  32px
-  28px !important;
+  padding: 45px 24px 28px 24px !important;
 }
 
 
-
-/* CARD TITLES */
+/* Card title */
 
 .program-content h3 {
 
-  font-size: 1.55rem !important;
-
+  font-size: 1.35rem !important;
   line-height: 1.25 !important;
 
-  margin-bottom: 16px !important;
+  margin-bottom: 14px !important;
 
-  color: #0f172a !important;
+  color: #0F172A !important;
 
-  font-weight: 800 !important;
+  font-weight: 850 !important;
 }
 
 
-
-/* CARD PARAGRAPHS */
+/* Card paragraph */
 
 .program-content p {
 
-  font-size: 1rem !important;
-
-  line-height: 1.8 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.65 !important;
 
   color: #475569 !important;
 
-  margin-bottom: 24px !important;
+  margin-bottom: 20px !important;
 }
 
 
-
-/* LEARN MORE LINKS */
+/* Learn More link */
 
 .program-content a {
 
@@ -1343,44 +1328,36 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 }
 
 
-
 .program-content a:hover {
 
-  color: #14b8a6 !important;
+  color: #14B8A6 !important;
 }
-
 
 
 /* =========================================
    ICON COLORS
+   --------------------------------------------------
+   Creative Arts = Purple
+   Sports = Gold
+   Mentorship = Teal
+   Fashion = Pink/Purple
 ========================================= */
 
 .purple-icon {
-
   background: #7D5BA6 !important;
 }
 
-
-
 .yellow-icon {
-
   background: #F6B300 !important;
 }
 
-
-
 .teal-icon {
-
   background: #14B8A6 !important;
 }
 
-
-
 .pink-icon {
-
   background: #EC4899 !important;
 }
-
 
 
 /* =========================================
@@ -1390,17 +1367,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 @media (max-width: 1000px) {
 
   .program-cards {
-
-    grid-template-columns:
-    repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
-  .section-heading {
-
-    font-size: 3rem !important;
+  .programs-section .section-heading {
+    font-size: 2.8rem !important;
   }
 }
-
 
 
 /* =========================================
@@ -1410,69 +1383,33 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 @media (max-width: 650px) {
 
   .programs-section {
-
-    padding: 80px 24px !important;
+    padding: 70px 20px !important;
   }
 
   .program-cards {
-
     grid-template-columns: 1fr !important;
+    gap: 24px !important;
   }
 
-  .section-heading {
-
-    font-size: 2.4rem !important;
+  .programs-section .section-heading {
+    font-size: 2.2rem !important;
   }
 
-  .section-subtext {
+  .programs-section .section-subtext {
+    font-size: 1rem !important;
+    margin-bottom: 40px !important;
+  }
 
-    font-size: 1.05rem !important;
+  .program-card > img {
+    height: 210px !important;
+  }
+
+  .program-icon {
+    top: 182px !important;
+    width: 54px !important;
+    height: 54px !important;
   }
 }
-/* ==================================================
-   GLOBAL MOBILE CLEANUP
-================================================== */
-
-@media (max-width: 768px) {
-
-  /* ======================================
-     HEADER
-  ====================================== */
-
-  header,
-  .page-header,
-  .site-header {
-
-    height: 78px !important;
-
-    padding: 0 16px !important;
-
-    display: flex !important;
-
-    align-items: center !important;
-
-    justify-content: space-between !important;
-  }
-
-  .project-name {
-
-    font-size: 1.3rem !important;
-
-    letter-spacing: 1px !important;
-  }
-
-  .site-nav ul {
-
-    gap: 10px !important;
-  }
-
-  .site-nav a {
-
-    font-size: 0.72rem !important;
-
-    padding: 4px !important;
-  }
-
 
   /* ======================================
      MAIN CONTENT SPACING
