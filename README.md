@@ -153,14 +153,15 @@ class="purpose-image"
 
 
 <!-- =========================================
-     WHAT WE DO SECTION/ Programs cards section 
+     FURAHA TALENTS IN ACTION SECTION/ Programs cards section 
 ========================================= -->
 
 <section class="programs-section">
 
-  <p class="section-label">WHAT WE DO</p>
+  <p class="section-label">FURAHA TALENTS <br>
+In Action <br>
+    Real stories. Real growth. Real impact.</p>
 
-  <h2>Nurturing Every Gift</h2>
 
   <p class="section-intro">
     Furaha Projects creates safe spaces where young people can discover,
