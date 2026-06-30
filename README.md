@@ -258,44 +258,6 @@ class="purpose-image"
 
 </section>
  
-## Operational Headquarters & Master Command Hub
-
-Furaha Projects HQ operates as the centralized command hub powering a diverse network of specialized community initiatives. Guided by Christian principles, this platform orchestrates localized operations in youth creative development, maternal economic relief, and transparent statistical impact mapping.
-
----
-
-## 📸 Community Impact Gallery
-<div class="image-gallery">
-  <div class="gallery-frame">
-    <img src="outreach1.png" alt="Foundations of Leadership - Furaha Projects">
-    <span class="gallery-caption">Foundations of Leadership</span>
-  </div>
-  
-  <div class="gallery-frame">
-    <img src="outreach2.jpeg" alt="The Creative Spark - Talanta Gala Preparation">
-    <span class="gallery-caption">The Creative Spark</span>
-  </div>
-  
-  <div class="gallery-frame">
-    <img src="outreach3.png" alt="Unity in Action - Local Community Impact">
-    <span class="gallery-caption">Unity in Action</span>
-  </div>
-</div>
-
----
-
-> ## Our Mission & Vision
-> Guided by the Bible verse: **1 Peter 4:10**, our mission is to be able to use the talents and abilities we are blessed with to bless others and to live and serve others. As we believe that charity begins at home, our vision is to start community and personal development of our God-given talents through presentation of opportunities and nurturing for long-term results.
-
----
-
-## Core Operational Pillars
-* **🌍 Community Outreach:** Organizing direct support frameworks for children and families.
-* **📚 Education Support:** Bridging resources and local literacy gaps for everyone in the community.
-* **📊 Data Transparency:** Applying statistical mapping and predictive growth metrics to track and display our direct local network impact.
-
-
-
 
   
 
