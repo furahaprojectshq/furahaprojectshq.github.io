@@ -1690,12 +1690,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   display: block !important;
 }
 
-/* OVERLAY WORDS */
+
+/* OVERLAY WORDS - DEFAULT FOR PHOTOS */
 .media-overlay {
   position: absolute !important;
-  top: 20px !important;
-  left: 20px !important;
-  bottom: auto !important;
+  left: 16px !important;
+  bottom: 16px !important;
+  top: auto !important;
   right: auto !important;
 
   background: rgba(15,23,42,0.72) !important;
@@ -1707,22 +1708,12 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   max-width: 280px !important;
 }
 
-.media-overlay span {
-  display: block !important;
-  font-size: 0.70rem !important;
-  letter-spacing: 2px !important;
-  font-weight: 900 !important;
-  color: #14B8A6 !important;
-  margin-bottom: 4px !important;
+/* VIDEO OVERLAY ONLY */
+.featured-video .media-overlay {
+  left: 20px !important;
+  bottom: 52px !important; /* raises it above the video controls */
+  top: auto !important;
 }
-
-.media-overlay h3 {
-  margin: 0 !important;
-  font-size: 0.95rem !important;
-  color: #ffffff !important;
-  line-height: 1.3 !important;
-}
-
 /* GALLERY BUTTON */
 .gallery-cta {
   margin-top: 40px !important;
