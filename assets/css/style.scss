@@ -1699,7 +1699,7 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   left: 14px !important;
   bottom: 14px !important;
 
-  background: rgba(15,23,42,0.68) !important;
+ background: rgba(255,255,255,0.92) !important;
   backdrop-filter: blur(8px) !important;
 
   padding: 7px 11px !important;
@@ -1710,12 +1710,13 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
 
   max-width: 190px !important;
 }
-
 /* Small top label */
 .media-overlay span {
   font-size: 0.58rem !important;
   letter-spacing: 1.3px !important;
   margin-bottom: 2px !important;
+
+  color: #14B8A6 !important;
 }
 
 /* Main text */
@@ -1723,7 +1724,10 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
   font-size: 0.78rem !important;
   line-height: 1.25 !important;
   margin: 0 !important;
+
+  color: #0F172A !important;
 }
+
 
 /* VIDEO OVERLAY ONLY */
 .featured-video .media-overlay {
