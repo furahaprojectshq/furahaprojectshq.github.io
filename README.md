@@ -259,109 +259,157 @@ class="purpose-image"
 </section>
  
 <!-- ==================================================
-     COMMUNITY IMPACT GALLERY
+     21. COMMUNITY IMPACT GALLERY
 ================================================== -->
 
 <section class="impact-gallery">
 
   <!-- Small Section Label -->
-  <p class="gallery-label">COMMUNITY IMPACT GALLERY</p>
+  <p class="gallery-label">
+    COMMUNITY IMPACT GALLERY
+  </p>
 
   <!-- Main Heading -->
   <h2 class="gallery-heading">
-    Real moments from a growing community of creativity,
-    learning and opportunity.
+    Stories of creativity, learning and opportunity.
   </h2>
 
-  <!-- Intro Text -->
+  <!-- Small Introduction -->
   <p class="gallery-subtext">
-    From music and sports to education and creative expression,
-    these moments capture the spirit of Furaha Projects and the
-    communities we hope to continue building.
+    A glimpse into the people, talents and moments shaping the
+    Furaha story.
   </p>
 
 
-  <!-- ==============================
+  <!-- =========================================
        FEATURED CHOIR VIDEO
-  =============================== -->
+  ========================================== -->
 
   <div class="featured-video">
 
-    <video controls autoplay muted loop>
+    <video controls muted loop>
       <source src="assets/images/choir-video.mp4" type="video/mp4">
     </video>
 
     <div class="media-overlay">
+
       <span>COMMUNITY VOICES</span>
-      <h3>Choir • Culture • Joy</h3>
+
+      <h3>
+        Choir • Culture • Joy
+      </h3>
+
     </div>
 
   </div>
 
 
-  <!-- ==============================
-       MEDIA GRID
-  =============================== -->
+  <!-- =========================================
+       2 x 2 MEDIA GRID
+  ========================================== -->
 
   <div class="gallery-grid">
 
-    <!-- Football -->
+    <!-- FOOTBALL -->
+
     <div class="gallery-item">
 
       <img src="assets/images/gallery-football.jpeg"
-           alt="Football Activities">
+           alt="Sports and leadership">
 
       <div class="media-overlay">
+
         <span>SPORTS & LEADERSHIP</span>
-        <h3>Teamwork • Confidence • Growth</h3>
+
+        <h3>
+          Teamwork • Confidence • Growth
+        </h3>
+
       </div>
 
     </div>
 
 
-    <!-- Painting -->
+    <!-- PAINTING -->
+
     <div class="gallery-item">
 
       <img src="assets/images/gallery-painting.jpeg"
            alt="Creative Arts">
 
       <div class="media-overlay">
+
         <span>CREATIVE ARTS</span>
-        <h3>Expression • Creativity • Discovery</h3>
+
+        <h3>
+          Expression • Creativity • Discovery
+        </h3>
+
       </div>
 
     </div>
 
 
-    <!-- Violin -->
+    <!-- VIOLIN -->
+
     <div class="gallery-item">
 
       <img src="assets/images/gallery-violin.jpeg"
            alt="Music and Performance">
 
       <div class="media-overlay">
+
         <span>MUSIC & PERFORMANCE</span>
-        <h3>Discipline • Confidence • Artistry</h3>
+
+        <h3>
+          Discipline • Confidence • Artistry
+        </h3>
+
       </div>
 
     </div>
 
 
-    <!-- Education -->
+    <!-- EDUCATION -->
+
     <div class="gallery-item">
 
       <img src="assets/images/gallery-education.jpeg"
-           alt="Education and Mentorship">
+           alt="Education and mentorship">
 
       <div class="media-overlay">
+
         <span>MENTORSHIP & EDUCATION</span>
-        <h3>Learning • Guidance • Opportunity</h3>
+
+        <h3>
+          Learning • Guidance • Opportunity
+        </h3>
+
       </div>
 
     </div>
 
   </div>
 
-</section>
-  
 
+  <!-- =========================================
+       BUTTON TO FULL GALLERY PAGE
+  ========================================== -->
+
+  <div class="gallery-cta">
+
+    <a href="gallery" class="gallery-button">
+
+      Explore Our Full Gallery →
+
+    </a>
+
+    <p class="gallery-cta-note">
+
+      More stories. More moments. More impact.
+
+    </p>
+
+  </div>
+
+</section>
