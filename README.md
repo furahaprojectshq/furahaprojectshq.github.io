@@ -413,3 +413,111 @@ class="purpose-image"
   </div>
 
 </section>
+
+<!-- =====================================================
+     SECTION 22 — JOIN THE MOVEMENT
+     This section gives visitors four ways to support
+     Furaha Projects: volunteer, partner, donate, or advocate.
+===================================================== -->
+
+<section class="join-section">
+
+  <!-- Keeps the content centred and prevents it from
+       stretching too widely on large screens -->
+  <div class="join-container">
+
+    <!-- Section introduction -->
+    <div class="join-heading">
+
+      <p class="join-label">GET INVOLVED</p>
+
+      <h2>Join the Movement</h2>
+
+      <p class="join-intro">
+        Everyone has something valuable to contribute. Whether through your
+        time, skills, resources, connections, or generosity, you can help us
+        create more opportunities for children and young people.
+      </p>
+
+    </div>
+
+    <!-- The four involvement cards -->
+    <div class="join-grid">
+
+      <!-- Volunteer Card -->
+      <article class="join-card">
+        <div class="join-icon" aria-hidden="true">🤝</div>
+
+        <h3>Volunteer</h3>
+
+        <p>
+          Share your time, knowledge, or skills by mentoring, coaching,
+          teaching, or supporting community activities.
+        </p>
+
+        <a href="/contact" class="join-card-link">
+          Volunteer with us →
+        </a>
+      </article>
+
+      <!-- Partner Card -->
+      <article class="join-card">
+        <div class="join-icon" aria-hidden="true">🌍</div>
+
+        <h3>Partner</h3>
+
+        <p>
+          Collaborate with us as a school, business, church, organisation,
+          or community group to create lasting impact.
+        </p>
+
+        <a href="/contact" class="join-card-link">
+          Partner with us →
+        </a>
+      </article>
+
+      <!-- Donate Card -->
+      <article class="join-card">
+        <div class="join-icon" aria-hidden="true">❤️</div>
+
+        <h3>Donate</h3>
+
+        <p>
+          Support equipment, learning materials, activities, and opportunities
+          that help young people discover and develop their talents.
+        </p>
+
+        <a href="/contact" class="join-card-link">
+          Support the mission →
+        </a>
+      </article>
+
+      <!-- Advocate Card -->
+      <article class="join-card">
+        <div class="join-icon" aria-hidden="true">📣</div>
+
+        <h3>Advocate</h3>
+
+        <p>
+          Share our story, introduce us to others, and help more people learn
+          about the work and vision of Furaha Projects.
+        </p>
+
+        <a href="/contact" class="join-card-link">
+          Help spread the word →
+        </a>
+      </article>
+
+    </div>
+
+    <!-- Main call-to-action -->
+    <div class="join-action">
+      <a href="/contact" class="join-main-button">
+        Become Part of the Furaha Community
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+  </div>
+
+</section>
