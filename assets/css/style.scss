@@ -1802,3 +1802,363 @@ body, .main-content, p, li, h1, h2, h3, h4, span, a {
     font-size: 0.85rem !important;
   }
 }
+
+/* =========================================================
+   SECTION 22 — JOIN THE MOVEMENT
+   Purpose:
+   Invites visitors to support Furaha Projects by volunteering,
+   partnering, donating, or advocating.
+
+   HTML location:
+   README.md
+
+   Styling location:
+   style.scss
+========================================================= */
+
+
+/* ---------------------------------------------------------
+   22.1 MAIN SECTION
+   Creates the full-width navy background and internal spacing.
+--------------------------------------------------------- */
+
+.join-section {
+  position: relative;
+  padding: 110px 24px;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 12% 20%,
+      rgba(20, 184, 166, 0.16),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 88% 80%,
+      rgba(246, 179, 0, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #0f2532 0%,
+      #132f3d 55%,
+      #0f2532 100%
+    );
+}
+
+
+/* ---------------------------------------------------------
+   22.2 CONTENT CONTAINER
+   Keeps the section content centred and prevents it from
+   becoming too wide on large screens.
+--------------------------------------------------------- */
+
+.join-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+
+/* ---------------------------------------------------------
+   22.3 SECTION HEADING AREA
+--------------------------------------------------------- */
+
+.join-heading {
+  max-width: 760px;
+  margin: 0 auto 58px;
+  text-align: center;
+}
+
+
+/* Small uppercase label above the main heading */
+
+.join-label {
+  margin: 0 0 14px;
+  color: #55d6c8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+
+/* Main section title */
+
+.join-heading h2 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-size: clamp(2.3rem, 5vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+
+/* Supporting paragraph below the heading */
+
+.join-intro {
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+
+/* ---------------------------------------------------------
+   22.4 CARD GRID
+   CSS Grid creates four equal columns on wide screens.
+--------------------------------------------------------- */
+
+.join-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+
+/* ---------------------------------------------------------
+   22.5 INDIVIDUAL CARDS
+--------------------------------------------------------- */
+
+.join-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 330px;
+  padding: 32px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(8px);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Card movement when the visitor points at it */
+
+.join-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(85, 214, 200, 0.55);
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.24);
+}
+
+
+/* ---------------------------------------------------------
+   22.6 CARD ICON
+--------------------------------------------------------- */
+
+.join-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(85, 214, 200, 0.3);
+  border-radius: 18px;
+  background: rgba(20, 184, 166, 0.12);
+  font-size: 1.65rem;
+}
+
+
+/* ---------------------------------------------------------
+   22.7 CARD TEXT
+--------------------------------------------------------- */
+
+.join-card h3 {
+  margin: 0 0 14px;
+  color: #ffffff;
+  font-size: 1.38rem;
+  line-height: 1.25;
+}
+
+
+.join-card p {
+  margin: 0 0 24px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.97rem;
+  line-height: 1.7;
+}
+
+
+/* ---------------------------------------------------------
+   22.8 CARD LINKS
+   margin-top: auto pushes every link to the bottom so that
+   all card links line up, even when paragraph lengths differ.
+--------------------------------------------------------- */
+
+.join-card-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: auto;
+  color: #66ded1;
+  font-size: 0.94rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+
+.join-card-link:hover {
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+
+/* Visible keyboard focus for accessibility */
+
+.join-card-link:focus-visible,
+.join-main-button:focus-visible {
+  outline: 3px solid #f6b300;
+  outline-offset: 4px;
+}
+
+
+/* ---------------------------------------------------------
+   22.9 MAIN CALL-TO-ACTION BUTTON
+--------------------------------------------------------- */
+
+.join-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+
+.join-main-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 16px 30px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: #14b8a6;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(20, 184, 166, 0.25);
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.join-main-button:hover {
+  transform: translateY(-3px);
+  background: #0fa897;
+  box-shadow: 0 18px 36px rgba(20, 184, 166, 0.34);
+}
+
+
+/* Moves only the arrow when the button is hovered */
+
+.join-main-button span {
+  transition: transform 0.3s ease;
+}
+
+
+.join-main-button:hover span {
+  transform: translateX(5px);
+}
+
+
+/* ---------------------------------------------------------
+   22.10 TABLET RESPONSIVENESS
+   Changes the four-column layout into two columns.
+--------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+  .join-section {
+    padding: 90px 22px;
+  }
+
+  .join-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   22.11 MOBILE RESPONSIVENESS
+   Changes the cards into one column.
+--------------------------------------------------------- */
+
+@media (max-width: 640px) {
+
+  .join-section {
+    padding: 76px 18px;
+  }
+
+  .join-heading {
+    margin-bottom: 42px;
+  }
+
+  .join-heading h2 {
+    font-size: clamp(2.1rem, 11vw, 3rem);
+  }
+
+  .join-intro {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .join-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .join-card {
+    min-height: auto;
+    padding: 28px 24px;
+  }
+
+  .join-action {
+    margin-top: 38px;
+  }
+
+  .join-main-button {
+    width: 100%;
+    max-width: 340px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   22.12 REDUCED MOTION
+   Removes unnecessary movement for visitors who have chosen
+   reduced-motion settings on their device.
+--------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .join-card,
+  .join-card-link,
+  .join-main-button,
+  .join-main-button span {
+    transition: none;
+  }
+
+  .join-card:hover,
+  .join-card-link:hover,
+  .join-main-button:hover,
+  .join-main-button:hover span {
+    transform: none;
+  }
+
+}
